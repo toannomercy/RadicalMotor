@@ -1,0 +1,28 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using RadicalMotor.Models
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<ul class="navbar-nav ms-0">
+@if (SignInManager.IsSignedIn(User))
+{
+    <li class="nav-item">
+            <a id="manage" class="nav-link btn btn-primary py-4 px-lg-5 d-lg-block text-light" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage"><i class="bi bi-person-square"></i> @UserManager.GetUserName(User)</a>
+    </li>
+    <li class="nav-item">
+        <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                <button id="logout" type="submit" class="nav-link btn btn-link border-0"><i class="bi bi-door-open-fill"></i></button>
+        </form>
+    </li>
+}
+else
+{
+@*         <li class="nav-item btn-primary">
+            <a class="nav-link " id="register" asp-area="Identity" asp-page="/Account/Register">Register</a>
+        </li> *@
+        <a class="btn btn-primary py-4 px-lg-5 d-lg-block" id="sigin-btn-gradient" style="display: block !important" asp-area="Identity" asp-page="/Account/Login">
+            <i class="fa fa-sign-in-alt"></i> Sign In Now
+        </a>
+}
+</ul>
