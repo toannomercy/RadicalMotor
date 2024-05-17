@@ -10,8 +10,8 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connectionString));
 
 builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
-	.AddRoles<IdentityRole>()
-	.AddEntityFrameworkStores<ApplicationDbContext>();
+    .AddRoles<IdentityRole>()
+    .AddEntityFrameworkStores<ApplicationDbContext>();
 
 builder.Services.AddScoped<IVehicleImageRepository, VehicleImageRepository>();
 builder.Services.AddScoped<IVehicleRepository, VehicleRepository>();
@@ -26,9 +26,9 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
-	app.UseExceptionHandler("/Home/Error");
-	// The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-	app.UseHsts();
+    app.UseExceptionHandler("/Home/Error");
+    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+    app.UseHsts();
 }
 
 app.UseHttpsRedirection();
@@ -41,8 +41,8 @@ app.UseAuthorization();
 
 app.MapRazorPages();
 app.MapControllerRoute(
-	name: "default",
-	pattern: "{controller=Home}/{action=Index}/{id?}");
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 await CreateRoles(app.Services);
 
@@ -50,35 +50,35 @@ app.Run();
 
 static async Task CreateRoles(IServiceProvider serviceProvider)
 {
-	using var scope = serviceProvider.CreateScope();
-	var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
-	var userManager = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
+    using var scope = serviceProvider.CreateScope();
+    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+    var userManager = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
 
-	string[] roleNames = { "Admin", "User" };
-	IdentityResult roleResult;
+    string[] roleNames = { "Admin", "User" };
+    IdentityResult roleResult;
 
-	foreach (var roleName in roleNames)
-	{
-		var roleExist = await roleManager.RoleExistsAsync(roleName);
-		if (!roleExist)
-		{
-			roleResult = await roleManager.CreateAsync(new IdentityRole(roleName));
-		}
-	}
+    foreach (var roleName in roleNames)
+    {
+        var roleExist = await roleManager.RoleExistsAsync(roleName);
+        if (!roleExist)
+        {
+            roleResult = await roleManager.CreateAsync(new IdentityRole(roleName));
+        }
+    }
 
-	var adminUser = await userManager.FindByEmailAsync("admin@admin.com");
-	if (adminUser == null)
-	{
-		var user = new ApplicationUser
-		{
-			UserName = "admin@admin.com",
-			Email = "admin@admin.com"
-		};
-		string adminPassword = "Admin@1234";
-		var createAdminUser = await userManager.CreateAsync(user, adminPassword);
-		if (createAdminUser.Succeeded)
-		{
-			await userManager.AddToRoleAsync(user, "Admin");
-		}
-	}
+    var adminUser = await userManager.FindByEmailAsync("admin@admin.com");
+    if (adminUser == null)
+    {
+        var user = new ApplicationUser
+        {
+            UserName = "admin@admin.com",
+            Email = "admin@admin.com"
+        };
+        string adminPassword = "Admin@1234";
+        var createAdminUser = await userManager.CreateAsync(user, adminPassword);
+        if (createAdminUser.Succeeded)
+        {
+            await userManager.AddToRoleAsync(user, "Admin");
+        }
+    }
 }
