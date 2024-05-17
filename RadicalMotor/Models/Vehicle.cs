@@ -6,7 +6,6 @@ namespace RadicalMotor.Models
 	public class Vehicle
 	{
 		[Key]
-		[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 		public string ChassisNumber { get; set; }
 
 		[Required]

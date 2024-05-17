@@ -6,7 +6,8 @@ namespace RadicalMotor.Models
     public class Appointment
     {
         [Required, Key]
-        public string AppointmentId { get; set; }
+		[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+		public string AppointmentId { get; set; }
         public DateTime DateCreated { get; set; }
         public string? Content { get; set; }
         public decimal TotalAmount { get; set; }

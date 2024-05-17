@@ -318,6 +318,25 @@ namespace RadicalMotor.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "CustomerImages",
+                columns: table => new
+                {
+                    ImageId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CustomerId = table.Column<string>(type: "nvarchar(450)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_CustomerImages", x => x.ImageId);
+                    table.ForeignKey(
+                        name: "FK_CustomerImages_Customers_CustomerId",
+                        column: x => x.CustomerId,
+                        principalTable: "Customers",
+                        principalColumn: "CustomerId",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Appointments",
                 columns: table => new
                 {
@@ -438,6 +457,25 @@ namespace RadicalMotor.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "VehicleImages",
+                columns: table => new
+                {
+                    ImageId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ChassisNumber = table.Column<string>(type: "nvarchar(450)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_VehicleImages", x => x.ImageId);
+                    table.ForeignKey(
+                        name: "FK_VehicleImages_Vehicles_ChassisNumber",
+                        column: x => x.ChassisNumber,
+                        principalTable: "Vehicles",
+                        principalColumn: "ChassisNumber",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "InstallmentInvoices",
                 columns: table => new
                 {
@@ -544,6 +582,11 @@ namespace RadicalMotor.Migrations
                 filter: "[NormalizedUserName] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
+                name: "IX_CustomerImages_CustomerId",
+                table: "CustomerImages",
+                column: "CustomerId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Customers_UserId",
                 table: "Customers",
                 column: "UserId");
@@ -594,6 +637,11 @@ namespace RadicalMotor.Migrations
                 column: "PromotionId");
 
             migrationBuilder.CreateIndex(
+                name: "IX_VehicleImages_ChassisNumber",
+                table: "VehicleImages",
+                column: "ChassisNumber");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Vehicles_PriceListID",
                 table: "Vehicles",
                 column: "PriceListID");
@@ -631,6 +679,9 @@ namespace RadicalMotor.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
+                name: "CustomerImages");
+
+            migrationBuilder.DropTable(
                 name: "InstallmentInvoices");
 
             migrationBuilder.DropTable(
@@ -638,6 +689,9 @@ namespace RadicalMotor.Migrations
 
             migrationBuilder.DropTable(
                 name: "PromotionDetails");
+
+            migrationBuilder.DropTable(
+                name: "VehicleImages");
 
             migrationBuilder.DropTable(
                 name: "Appointments");

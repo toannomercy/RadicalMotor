@@ -1,8 +1,48 @@
-﻿@{
+﻿@model RadicalMotor.Models.AppointmentDTO
+
+@{
 	ViewData["Title"] = "Index";
 	Layout = "~/Views/Shared/MyLayouts.cshtml";
 }
 <script src="/js/services.js"></script>
+<script>
+	$(document).ready(function () {
+		$('#datetimepicker1').datetimepicker({
+			format: 'L',
+			defaultDate: moment()
+		});
+
+		$('#book-now-button').click(function () {
+			var formData = {
+				Name: $('#Name').val(),
+				PhoneNumber: $('#PhoneNumber').val(),
+				SelectedServiceId: $('#SelectedServiceId').val(),
+				ServiceDate: moment($('#ServiceDate').val(), 'MM/DD/YYYY').toISOString(),
+				Notes: $('#Notes').val()
+			};
+
+			$.ajax({
+				type: "POST",
+				url: "@Url.Action("BookAppointment", "Service")",
+				contentType: "application/json",
+				data: JSON.stringify(formData),
+				success: function (response) {
+					if (response.success) {
+						$('#success-message').removeClass('d-none').text(response.message);
+						$('#error-message').addClass('d-none');
+					} else {
+						$('#error-message').removeClass('d-none').text(response.message || response.errors.join(", "));
+						$('#success-message').addClass('d-none');
+					}
+				},
+				error: function (xhr, status, error) {
+					$('#error-message').removeClass('d-none').text("An error occurred: " + error);
+					$('#success-message').addClass('d-none');
+				}
+			});
+		});
+	});
+</script>
 <!-- Page Header Start -->
 <div class="container-fluid page-header mb-5 p-0"
 	 style="background-image: url(img/carousel-bg-2.jpg)">
@@ -230,6 +270,7 @@
 	</div>
 </div>
 <!-- Service End -->
+
 <!-- Booking Start -->
 <div class="container-fluid bg-secondary booking my-5 wow fadeInUp"
 	 data-wow-delay="0.1s">
@@ -249,47 +290,44 @@
 				</div>
 			</div>
 			<div class="col-lg-6">
-				<div class="bg-primary h-100 d-flex flex-column justify-content-center text-center p-5 wow zoomIn"
-					 data-wow-delay="0.6s">
+				<div class="bg-primary h-100 d-flex flex-column justify-content-center text-center p-5 wow zoomIn" data-wow-delay="0.6s">
 					<h1 class="text-white mb-4">Book For A Service</h1>
-					<form>
+					@if (TempData["SuccessMessage"] != null)
+					{
+						<div class="alert alert-success">
+							@TempData["SuccessMessage"]
+						</div>
+					}
+					<div class="alert alert-danger d-none" id="error-message"></div>
+					<div class="alert alert-success d-none" id="success-message"></div>
+
+					<form id="appointment-form">
 						<div class="row g-3">
 							<div class="col-12 col-sm-6">
-								<input type="text"
-									   class="form-control border-0"
-									   placeholder="Your Name"
-									   style="height: 55px" />
+								<input asp-for="Name" class="form-control border-0" placeholder="Your Name" style="height: 55px" />
+								<span asp-validation-for="Name" class="text-danger"></span>
 							</div>
 							<div class="col-12 col-sm-6">
-								<input type="text"
-									   class="form-control border-0"
-									   placeholder="Your Phone Number"
-									   style="height: 55px" />
+								<input asp-for="PhoneNumber" class="form-control border-0" placeholder="Your Phone Number" style="height: 55px" />
+								<span asp-validation-for="PhoneNumber" class="text-danger"></span>
 							</div>
 							<div class="col-12 col-sm-6">
-								<select class="form-select border-0" id="service-select" style="height: 55px">
-									<option selected>Select A Service</option>
+								<select asp-for="SelectedServiceId" class="form-select border-0" style="height: 55px" asp-items="@(new SelectList(Model.Services, "ServiceId", "ServiceName"))">
+									<option value="">Select A Service</option>
 								</select>
+								<span asp-validation-for="SelectedServiceId" class="text-danger"></span>
 							</div>
 							<div class="col-12 col-sm-6">
-								<div class="date" id="date1" data-target-input="nearest" style="position: relative;">
-									<input type="text"
-										   class="form-control border-0 datetimepicker-input"
-										   placeholder="Service Date"
-										   data-target="#date1"
-										   data-toggle="datetimepicker"
-										   style="height: 55px" />
+								<div class="input-group date" id="datetimepicker1" data-target-input="nearest" style="position: relative;">
+									<input asp-for="ServiceDate" type="text" class="form-control border-0 datetimepicker-input" placeholder="Service Date" data-target="#datetimepicker1" data-toggle="datetimepicker" style="height: 55px" />
 								</div>
-							</div>
-
-							<div class="col-12">
-								<textarea class="form-control border-0"
-										  placeholder="Notes"></textarea>
+								<span asp-validation-for="ServiceDate" class="text-danger"></span>
 							</div>
 							<div class="col-12">
-								<button class="btn btn-secondary w-100 py-3" type="submit">
-									Book Now
-								</button>
+								<textarea asp-for="Notes" class="form-control border-0" placeholder="Notes" style="height: 55px"></textarea>
+							</div>
+							<div class="col-12">
+								<button class="btn btn-secondary w-100 py-3" type="button" id="book-now-button">Book Now</button>
 							</div>
 						</div>
 					</form>

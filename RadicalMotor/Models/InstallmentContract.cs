@@ -6,7 +6,6 @@ namespace RadicalMotor.Models
     public class InstallmentContract
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public string InstallmentContractId { get; set; }
         public DateTime? DateCreated { get; set; }
         public string? Content { get; set; }

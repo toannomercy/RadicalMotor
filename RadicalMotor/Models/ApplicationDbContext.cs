@@ -39,7 +39,6 @@ namespace RadicalMotor.Models
 		public string UserId { get; set; }
 		public ApplicationUser User { get; set; }
 		public List<Appointment> CreatedAppointments { get; set; }
-
 	}
 
 	public class Employee
@@ -74,6 +73,7 @@ namespace RadicalMotor.Models
 		public DbSet<Appointment> Appointments { get; set; }
 		public DbSet<AppointmentDetail> AppointmentDetails { get; set; }
 		public DbSet<Customer> Customers { get; set; }
+		public DbSet<CustomerImage> CustomerImages { get; set; }
 		public DbSet<Employee> Employees { get; set; }
 		public DbSet<InstallmentContract> InstallmentContracts { get; set; }
 		public DbSet<InstallmentNotification> InstallmentNotifications { get; set; }

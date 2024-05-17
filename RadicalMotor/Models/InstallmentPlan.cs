@@ -6,7 +6,6 @@ namespace RadicalMotor.Models
 	public class InstallmentPlan
 	{
 		[Key]
-		[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 		public string InstallmentTypeId { get; set; }
 
 		[Required]

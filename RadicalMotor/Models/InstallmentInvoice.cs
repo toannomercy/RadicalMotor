@@ -5,9 +5,8 @@ namespace RadicalMotor.Models
 {
     public class InstallmentInvoice
     {
-        [Key]
+        [Required, Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [Required]
         public string InstallmentInvoiceId { get; set; }
         public DateTime TransactionDate { get; set; }
 
