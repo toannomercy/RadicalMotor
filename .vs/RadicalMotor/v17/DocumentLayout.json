@@ -181,7 +181,7 @@
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AQIAAJMVAAAAAAAAAAAYwJsVAAAEAAAA",
+              "ViewState": "AQIAAJMVAAAAAAAAAAAYwJ4VAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
               "WhenOpened": "2024-05-17T10:11:33.697Z",
               "EditorCaption": ""
@@ -232,8 +232,7 @@
               "RelativeToolTip": "RadicalMotor\\Program.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAwwBcAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T22:13:11.379Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-05T22:13:11.379Z"
             },
             {
               "$type": "Document",
