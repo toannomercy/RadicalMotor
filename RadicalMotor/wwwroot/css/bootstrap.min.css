@@ -538,8 +538,6 @@ progress {
 	width: 100%;
 	padding-right: var(--bs-gutter-x, 0.75rem);
 	padding-left: var(--bs-gutter-x, 0.75rem);
-	margin-right: auto;
-	margin-left: auto;
 }
 @media (min-width: 576px) {
 	.container,
@@ -3974,7 +3972,7 @@ fieldset:disabled .btn {
 	word-wrap: break-word;
 	background-color: #fff;
 	background-clip: border-box;
-	border: 1px solid rgba(0, 0, 0, 0.125);
+	/*border: 1px solid rgba(0, 0, 0, 0.125);*/
 	border-radius: 0px;
 }
 .card > hr {
@@ -4030,7 +4028,7 @@ fieldset:disabled .btn {
 }
 .card-footer {
 	padding: 0.5rem 1rem;
-	background-color: rgba(0, 0, 0, 0.03);
+	/*background-color: rgba(0, 0, 0, 0.03);*/
 	border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 .card-footer:last-child {

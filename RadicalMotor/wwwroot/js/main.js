@@ -74,14 +74,18 @@
         time: 2000
     });
 
+    $('#datetimepicker1').datetimepicker({
+        format: 'L',
+        defaultDate: moment()
+    });
 
-    // Date and time picker
-    $('.date').datetimepicker({
-        format: 'L'
-    });
-    $('.time').datetimepicker({
-        format: 'LT'
-    });
+    //// Date and time picker
+    //$('#date1').datetimepicker({
+    //    format: 'L'
+    //});
+    //$('.time').datetimepicker({
+    //    format: 'LT'
+    //});
 
 
     // Testimonials carousel

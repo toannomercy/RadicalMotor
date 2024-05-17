@@ -27,21 +27,24 @@ namespace RadicalMotor.Areas.Identity.Pages.Account
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly IUserStore<ApplicationUser> _userStore;
-        private readonly IUserEmailStore<ApplicationUser> _emailStore;
+		private readonly RoleManager<IdentityRole> _roleManager;
+		private readonly IUserEmailStore<ApplicationUser> _emailStore;
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender;
 
         public RegisterModel(
             UserManager<ApplicationUser> userManager,
             IUserStore<ApplicationUser> userStore,
-            SignInManager<ApplicationUser> signInManager,
+			RoleManager<IdentityRole> roleManager,
+			SignInManager<ApplicationUser> signInManager,
             ILogger<RegisterModel> logger,
             IEmailSender emailSender)
         {
             _userManager = userManager;
             _userStore = userStore;
             _emailStore = GetEmailStore();
-            _signInManager = signInManager;
+			_roleManager = roleManager;
+			_signInManager = signInManager;
             _logger = logger;
             _emailSender = emailSender;
         }
@@ -122,8 +125,11 @@ namespace RadicalMotor.Areas.Identity.Pages.Account
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User created a new account with password.");
-
-                    var userId = await _userManager.GetUserIdAsync(user);
+					if (await _roleManager.RoleExistsAsync("User"))
+					{
+						await _userManager.AddToRoleAsync(user, "User");
+					}
+					var userId = await _userManager.GetUserIdAsync(user);
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
                     code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
                     var callbackUrl = Url.Page(

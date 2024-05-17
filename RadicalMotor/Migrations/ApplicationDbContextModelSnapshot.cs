@@ -227,6 +227,7 @@ namespace RadicalMotor.Migrations
             modelBuilder.Entity("RadicalMotor.Models.Appointment", b =>
                 {
                     b.Property<string>("AppointmentId")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Content")
@@ -317,6 +318,26 @@ namespace RadicalMotor.Migrations
                     b.ToTable("Customers");
                 });
 
+            modelBuilder.Entity("RadicalMotor.Models.CustomerImage", b =>
+                {
+                    b.Property<string>("ImageId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("CustomerId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ImageId");
+
+                    b.HasIndex("CustomerId");
+
+                    b.ToTable("CustomerImages");
+                });
+
             modelBuilder.Entity("RadicalMotor.Models.Employee", b =>
                 {
                     b.Property<string>("EmployeeId")
@@ -355,7 +376,6 @@ namespace RadicalMotor.Migrations
             modelBuilder.Entity("RadicalMotor.Models.InstallmentContract", b =>
                 {
                     b.Property<string>("InstallmentContractId")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<DateTime?>("ActualEndDate")
@@ -483,7 +503,6 @@ namespace RadicalMotor.Migrations
             modelBuilder.Entity("RadicalMotor.Models.InstallmentPlan", b =>
                 {
                     b.Property<string>("InstallmentTypeId")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<decimal>("InterestRate")
@@ -615,7 +634,6 @@ namespace RadicalMotor.Migrations
             modelBuilder.Entity("RadicalMotor.Models.Vehicle", b =>
                 {
                     b.Property<string>("ChassisNumber")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<DateTime>("EntryDate")
@@ -650,11 +668,8 @@ namespace RadicalMotor.Migrations
 
             modelBuilder.Entity("RadicalMotor.Models.VehicleImage", b =>
                 {
-                    b.Property<int>("ImageId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ImageId"));
+                    b.Property<string>("ImageId")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ChassisNumber")
                         .IsRequired()
@@ -674,7 +689,6 @@ namespace RadicalMotor.Migrations
             modelBuilder.Entity("RadicalMotor.Models.VehicleType", b =>
                 {
                     b.Property<string>("VehicleTypeId")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("SupplierId")
@@ -791,6 +805,17 @@ namespace RadicalMotor.Migrations
                         .IsRequired();
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("RadicalMotor.Models.CustomerImage", b =>
+                {
+                    b.HasOne("RadicalMotor.Models.Customer", "Customer")
+                        .WithMany()
+                        .HasForeignKey("CustomerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Customer");
                 });
 
             modelBuilder.Entity("RadicalMotor.Models.Employee", b =>

@@ -54,7 +54,3 @@ body {
 #login-submit:hover {
     background: linear-gradient(180deg, #FF1500 0%, #FF6600 100%) !important;
 }
-
-.nav-tabs .nav-link.active {
-    background: linear-gradient(180deg, #FF6600 0%, #FF1500 100%) !important;
-}

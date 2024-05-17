@@ -1,935 +1,935 @@
 {
   "Files": [
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RadicalMotor.bundle.scp.css",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RadicalMotor.bundle.scp.css",
       "PackagePath": "staticwebassets\\RadicalMotor.bundle.scp.css"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\css\\bootstrap.min.css",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\css\\frontend.css",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\css\\frontend.css",
       "PackagePath": "staticwebassets\\css\\frontend.css"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\css\\jquery.fancybox.min.css",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\css\\jquery.fancybox.min.css",
       "PackagePath": "staticwebassets\\css\\jquery.fancybox.min.css"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\css\\main.min.css",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\css\\main.min.css",
       "PackagePath": "staticwebassets\\css\\main.min.css"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\css\\site.css",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\css\\profile.css",
+      "PackagePath": "staticwebassets\\css\\profile.css"
+    },
+    {
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\css\\style.css",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\css\\swiper-bundle.min.css",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\css\\swiper-bundle.min.css",
       "PackagePath": "staticwebassets\\css\\swiper-bundle.min.css"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\favicon.ico",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\1290-SUPER-DUKE-R-EVO.png",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\1290-SUPER-DUKE-R-EVO.png",
       "PackagePath": "staticwebassets\\img\\1290-SUPER-DUKE-R-EVO.png"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\350-EXCF-SIX-DAYS.png",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\350-EXCF-SIX-DAYS.png",
       "PackagePath": "staticwebassets\\img\\350-EXCF-SIX-DAYS.png"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\390-DUKE.png",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\390-DUKE.png",
       "PackagePath": "staticwebassets\\img\\390-DUKE.png"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\690-SMC-R.png",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\690-SMC-R.png",
       "PackagePath": "staticwebassets\\img\\690-SMC-R.png"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\890-ADVENTURE-R.png",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\890-ADVENTURE-R.png",
       "PackagePath": "staticwebassets\\img\\890-ADVENTURE-R.png"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\890-DUKE-R.png",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\890-DUKE-R.png",
       "PackagePath": "staticwebassets\\img\\890-DUKE-R.png"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\Group.png",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\Group.png",
       "PackagePath": "staticwebassets\\img\\Group.png"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\RC-390-NG.png",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\RC-390-NG.png",
       "PackagePath": "staticwebassets\\img\\RC-390-NG.png"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\Vector-4.png",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\Vector-4.png",
       "PackagePath": "staticwebassets\\img\\Vector-4.png"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\about.jpg",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\about.jpg",
       "PackagePath": "staticwebassets\\img\\about.jpg"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\adcademy.jpg",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\adcademy.jpg",
       "PackagePath": "staticwebassets\\img\\adcademy.jpg"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\banner-mid-home-1.jpg",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\banner-mid-home-1.jpg",
       "PackagePath": "staticwebassets\\img\\banner-mid-home-1.jpg"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\carousel-1.png",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\carousel-1.png",
       "PackagePath": "staticwebassets\\img\\carousel-1.png"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\carousel-2.png",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\carousel-2.png",
       "PackagePath": "staticwebassets\\img\\carousel-2.png"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\carousel-bg-1.jpg",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\carousel-bg-1.jpg",
       "PackagePath": "staticwebassets\\img\\carousel-bg-1.jpg"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\carousel-bg-2.jpg",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\carousel-bg-2.jpg",
       "PackagePath": "staticwebassets\\img\\carousel-bg-2.jpg"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\customer-support-1-2.png",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\customer-support-1-2.png",
       "PackagePath": "staticwebassets\\img\\customer-support-1-2.png"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\demo-day-2.jpg",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\demo-day-2.jpg",
       "PackagePath": "staticwebassets\\img\\demo-day-2.jpg"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\demo-day.jpg",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\demo-day.jpg",
       "PackagePath": "staticwebassets\\img\\demo-day.jpg"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\home-1-1.png",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\home-1-1.png",
       "PackagePath": "staticwebassets\\img\\home-1-1.png"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\news-1.png",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\news-1.png",
       "PackagePath": "staticwebassets\\img\\news-1.png"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\news-2.jpg",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\news-2.jpg",
       "PackagePath": "staticwebassets\\img\\news-2.jpg"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\news-3.jpg",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\news-3.jpg",
       "PackagePath": "staticwebassets\\img\\news-3.jpg"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\psd-1.jpeg",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\psd-1.jpeg",
       "PackagePath": "staticwebassets\\img\\psd-1.jpeg"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\psd-2.png",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\psd-2.png",
       "PackagePath": "staticwebassets\\img\\psd-2.png"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\psd-3.png",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\psd-3.png",
       "PackagePath": "staticwebassets\\img\\psd-3.png"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\psd-4.png",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\psd-4.png",
       "PackagePath": "staticwebassets\\img\\psd-4.png"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\services-1.jpg",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\services-1.jpg",
       "PackagePath": "staticwebassets\\img\\services-1.jpg"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\services-2.jpg",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\services-2.jpg",
       "PackagePath": "staticwebassets\\img\\services-2.jpg"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\services-3.jpg",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\services-3.jpg",
       "PackagePath": "staticwebassets\\img\\services-3.jpg"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\services-4.jpg",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\services-4.jpg",
       "PackagePath": "staticwebassets\\img\\services-4.jpg"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\slideshow-1.jpg",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\slideshow-1.jpg",
       "PackagePath": "staticwebassets\\img\\slideshow-1.jpg"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\slideshow-2.jpg",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\slideshow-2.jpg",
       "PackagePath": "staticwebassets\\img\\slideshow-2.jpg"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\slideshow-3.jpg",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\slideshow-3.jpg",
       "PackagePath": "staticwebassets\\img\\slideshow-3.jpg"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\small-left.jpg",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\small-left.jpg",
       "PackagePath": "staticwebassets\\img\\small-left.jpg"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\small-right.jpg",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\small-right.jpg",
       "PackagePath": "staticwebassets\\img\\small-right.jpg"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\swiper-1.jpg",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\swiper-1.jpg",
       "PackagePath": "staticwebassets\\img\\swiper-1.jpg"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\swiper-2.png",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\swiper-2.png",
       "PackagePath": "staticwebassets\\img\\swiper-2.png"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\team-1.jpg",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\team-1.jpg",
       "PackagePath": "staticwebassets\\img\\team-1.jpg"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\team-2.jpg",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\team-2.jpg",
       "PackagePath": "staticwebassets\\img\\team-2.jpg"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\team-3.jpg",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\team-3.jpg",
       "PackagePath": "staticwebassets\\img\\team-3.jpg"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\team-4.jpg",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\team-4.jpg",
       "PackagePath": "staticwebassets\\img\\team-4.jpg"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\testimonial-1.jpg",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\testimonial-1.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial-1.jpg"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\testimonial-2.jpg",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\testimonial-2.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial-2.jpg"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\testimonial-3.jpg",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\testimonial-3.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial-3.jpg"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\testimonial-4.jpg",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\testimonial-4.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial-4.jpg"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\trial.jpg",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\trial.jpg",
       "PackagePath": "staticwebassets\\img\\trial.jpg"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\jquery\\jquery.min.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\jquery\\jquery.min.js",
       "PackagePath": "staticwebassets\\jquery\\jquery.min.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\js\\aos.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\js\\aos.js",
       "PackagePath": "staticwebassets\\js\\aos.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\js\\jquery.fancybox.min.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\js\\jquery.fancybox.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.fancybox.min.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\js\\login_register.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\js\\login_register.js",
       "PackagePath": "staticwebassets\\js\\login_register.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\js\\main.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\js\\motorcycles.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\js\\moment.js",
+      "PackagePath": "staticwebassets\\js\\moment.js"
+    },
+    {
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\js\\motorcycles.js",
       "PackagePath": "staticwebassets\\js\\motorcycles.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\js\\popup.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\js\\popup.js",
       "PackagePath": "staticwebassets\\js\\popup.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\js\\services.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\js\\services.js",
       "PackagePath": "staticwebassets\\js\\services.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\js\\site.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\js\\swiper-bundle.min.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\js\\swiper-bundle.min.js",
       "PackagePath": "staticwebassets\\js\\swiper-bundle.min.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\json\\serviceAccountKey.json",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\js\\tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets\\js\\tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\json\\serviceAccountKey.json",
       "PackagePath": "staticwebassets\\json\\serviceAccountKey.json"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\animate\\animate.css",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\animate\\animate.css",
       "PackagePath": "staticwebassets\\lib\\animate\\animate.css"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\animate\\animate.min.css",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\animate\\animate.min.css",
       "PackagePath": "staticwebassets\\lib\\animate\\animate.min.css"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\counterup\\counterup.min.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\counterup\\counterup.min.js",
       "PackagePath": "staticwebassets\\lib\\counterup\\counterup.min.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\easing\\easing.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\easing\\easing.js",
       "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\easing\\easing.min.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\easing\\easing.min.js",
       "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\owlcarousel\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\owlcarousel"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
-      "PackagePath": "staticwebassets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
-    },
-    {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
-      "PackagePath": "staticwebassets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
-    },
-    {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\tempusdominus\\js\\moment-timezone.min.js",
       "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\moment-timezone.min.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\tempusdominus\\js\\moment.min.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\tempusdominus\\js\\moment.min.js",
       "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\moment.min.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
-      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
-    },
-    {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
-      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
-    },
-    {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\waypoints\\links.php",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\waypoints\\links.php",
       "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\waypoints\\waypoints.min.js",
       "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\wow\\wow.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\wow\\wow.js",
       "PackagePath": "staticwebassets\\lib\\wow\\wow.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\wow\\wow.min.js",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\lib\\wow\\wow.min.js",
       "PackagePath": "staticwebassets\\lib\\wow\\wow.min.js"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_accordion.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_accordion.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_accordion.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_alert.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_badge.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_breadcrumb.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_button-group.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_buttons.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_card.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_carousel.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_close.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_containers.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_containers.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_containers.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_dropdown.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_forms.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_functions.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_grid.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_helpers.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_helpers.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_helpers.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_images.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_list-group.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_mixins.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_modal.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_nav.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_navbar.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_offcanvas.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_offcanvas.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_pagination.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_popover.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_progress.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_reboot.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_root.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_spinners.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tables.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_toasts.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tooltip.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_transitions.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_type.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_utilities.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_variables.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\forms\\_labels.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_labels.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\forms\\_validation.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_validation.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_position.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_position.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_container.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_container.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_image.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_api.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_api.scss"
     },
     {
-      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
     },
     {
