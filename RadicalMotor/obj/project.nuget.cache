@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VLYNdXSuaEScFN4E82+TwcZel3tQY7hF811o6vm5WV6oJcpxD1Wr3bNEEoxSjS9Kmb8tpLsxkQfl3r/tnXCvQw==",
+  "dgSpecHash": "Rk+MCeCmD4lFxrN2OseBelMCt3tqco21v/1/u12t1D5nLHMM8qqmWBeOzpJM3859aFzZGlgFKt2S/jU5kuQB1w==",
   "success": true,
   "projectFilePath": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\RadicalMotor.csproj",
   "expectedPackageFiles": [
@@ -135,6 +135,7 @@
     "C:\\Users\\hoang\\.nuget\\packages\\nuget.projectmodel\\6.9.1\\nuget.projectmodel.6.9.1.nupkg.sha512",
     "C:\\Users\\hoang\\.nuget\\packages\\nuget.protocol\\6.9.1\\nuget.protocol.6.9.1.nupkg.sha512",
     "C:\\Users\\hoang\\.nuget\\packages\\nuget.versioning\\6.9.1\\nuget.versioning.6.9.1.nupkg.sha512",
+    "C:\\Users\\hoang\\.nuget\\packages\\sixlabors.imagesharp\\3.1.4\\sixlabors.imagesharp.3.1.4.nupkg.sha512",
     "C:\\Users\\hoang\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.6\\sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
     "C:\\Users\\hoang\\.nuget\\packages\\sqlitepclraw.core\\2.1.6\\sqlitepclraw.core.2.1.6.nupkg.sha512",
     "C:\\Users\\hoang\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.6\\sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",

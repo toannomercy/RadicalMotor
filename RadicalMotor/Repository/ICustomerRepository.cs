@@ -11,5 +11,8 @@ namespace RadicalMotor.Repository
         Task AddAsync(Customer customer);
         Task UpdateAsync(Customer customer);
         Task DeleteAsync(string id);
+        Task<Customer> GetCustomerByUserIdAsync(string userId);
+        Task AddCustomerImageAsync(CustomerImage customerImage);
+        Task UpdateCustomerImageAsync(CustomerImage customerImage);
     }
 }

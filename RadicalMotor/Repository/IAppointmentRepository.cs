@@ -1,14 +1,19 @@
 ﻿using RadicalMotor.Models;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace RadicalMotor.Repository
 {
-    public interface IAppointmentRepository
-    {
-        Task<AppointmentDetail> GetAppointmentDetailByIdAsync(string appointmentId, string serviceId);
-        Task<IEnumerable<AppointmentDetail>> GetAppointmentDetailsByAppointmentIdAsync(string appointmentId);
-        Task AddAppointmentAsync(Appointment appointment);
-        Task AddAppointmentDetailAsync(AppointmentDetail appointmentDetail);
-        Task UpdateAppointmentDetailAsync(AppointmentDetail appointmentDetail);
-        Task DeleteAppointmentDetailAsync(string appointmentId, string serviceId);
-    }
+	public interface IAppointmentRepository
+	{
+		Task<List<Appointment>> GetAllAppointmentsAsync();
+		Task<Appointment> GetAppointmentByIdAsync(string id);
+		Task AddAppointmentAsync(Appointment appointment);
+		Task UpdateAppointmentAsync(Appointment appointment);
+		Task DeleteAppointmentAsync(string id);
+		Task AddAppointmentDetailAsync(AppointmentDetail appointmentDetail);
+		Task<List<Service>> GetAllServicesAsync();
+		Task<Service> GetServiceByIdAsync(string id);
+		Task<Employee> GetAdminEmployeeAsync();
+	}
 }

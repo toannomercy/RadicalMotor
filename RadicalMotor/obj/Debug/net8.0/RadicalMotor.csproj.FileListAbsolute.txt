@@ -571,3 +571,4 @@ E:\development\web\RadicalMotor\RadicalMotor\obj\Debug\net8.0\refint\RadicalMoto
 E:\development\web\RadicalMotor\RadicalMotor\obj\Debug\net8.0\RadicalMotor.pdb
 E:\development\web\RadicalMotor\RadicalMotor\obj\Debug\net8.0\RadicalMotor.genruntimeconfig.cache
 E:\development\web\RadicalMotor\RadicalMotor\obj\Debug\net8.0\ref\RadicalMotor.dll
+E:\development\web\RadicalMotor\RadicalMotor\bin\Debug\net8.0\SixLabors.ImageSharp.dll
