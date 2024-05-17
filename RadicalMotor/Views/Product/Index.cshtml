@@ -70,7 +70,7 @@
             @foreach (var Vehicle in Model)
             {
                 <div style="min-width: 35vh;" class="col-md-4 mb-4">
-                    <div class="card h-100">
+                    <div style="border: none !important;" class="card h-100">
                         <div class="card-body">
                             @if (ViewBag.VehicleImages != null && ViewBag.VehicleImages.ContainsKey(Vehicle.ChassisNumber))
                             {
