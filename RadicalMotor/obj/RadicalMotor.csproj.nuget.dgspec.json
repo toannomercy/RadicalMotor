@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\development\\web\\RadicalMotor\\RadicalMotor\\RadicalMotor.csproj": {}
+    "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\RadicalMotor.csproj": {}
   },
   "projects": {
-    "E:\\development\\web\\RadicalMotor\\RadicalMotor\\RadicalMotor.csproj": {
+    "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\RadicalMotor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\RadicalMotor.csproj",
+        "projectUniqueName": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\RadicalMotor.csproj",
         "projectName": "RadicalMotor",
-        "projectPath": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\RadicalMotor.csproj",
-        "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
-        "outputPath": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\obj\\",
+        "projectPath": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\RadicalMotor.csproj",
+        "packagesPath": "C:\\Users\\htoan\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\htoan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
