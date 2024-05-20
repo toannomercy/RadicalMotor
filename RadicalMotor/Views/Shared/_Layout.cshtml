@@ -21,66 +21,39 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-				<a asp-controller="home"
-				   asp-action="index"
-				   class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-					<h2 class="m-0 text-primary">
-						<i class="fa fa-solid fa-motorcycle"></i> RadicalMotor
-					</h2>
-				</a>
-				<button type="button"
-						class="navbar-toggler me-4"
-						data-bs-toggle="collapse"
-						data-bs-target="#navbarCollapse">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<h3 class="m-0 text-primary">
-					<a asp-controller="Home" asp-action="Index">
-						<i class="bi bi-backspace-fill"></i>
-					</a>
-				</h3>
-@* 				<div class="collapse navbar-collapse" id="navbarCollapse">
-					<div class="navbar-nav text-primary ms-auto p-4 p-lg-0">
-						<a asp-controller="home"
-						   asp-action="index"
-						   class="nav-item nav-link ">
-							Home
-						</a>
-						<a asp-controller="Products"
-						   asp-action="index"
-						   class="nav-item nav-link ">
-							Motorcycles
-						</a>
-						<div class="nav-item dropdown">
-							<a asp-controller="service"
-							   asp-action="index"
-							   class="nav-item nav-link">
-								Services
-							</a>
-						</div>
-						<div class="nav-item">
-							<ul class="navbar-nav">
-								<li class="nav-item ">
-									<partial name="_LoginPartial" />
-								</li>
-							</ul>
-						</div>
-					</div> *@
-				</div>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+                <a asp-controller="home" asp-action="index"
+                   class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+                    <h2 class="m-0 text-primary">
+                        <i class="fa fa-solid fa-motorcycle"></i> RadicalMotor
+                    </h2>
+                </a>
+                <button type="button"
+                        class="navbar-toggler me-4"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <h3 class="btn-back m-0 text-primary">
+                    <a asp-controller="Home" asp-action="Index">
+                        <i class="bi bi-backspace-fill"></i>
+                    </a>
+                </h3>
             </div>
         </nav>
     </header>
-    <div class="container">
+
+    <div class="container-fluid">
 		@RenderBody()
     </div>
 
-	<footer class="footer text-muted bg-dark">
-		<div class="container text-center text-primary">
-            &copy; 2024 - RadicalMotor
-        </div>
-    </footer>
+    <footer class="footer bg-dark">
+        <div class="container-fluid d-flex justify-content-center text-primary">
+			&copy; 2024 - RadicalMotor
+		</div>
+	</footer>
+
 	
 
 

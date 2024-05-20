@@ -54,3 +54,36 @@ body {
 #login-submit:hover {
     background: linear-gradient(180deg, #FF1500 0%, #FF6600 100%) !important;
 }
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container, .container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.footer {
+    padding: 0;
+    margin: 0;
+}
+
+    .footer .container-fluid {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+.btn-back{
+    padding-right: 20px;
+}
+
+.profile-content{
+    padding: 0px 20px !important;
+}
+
+.auth-content{
+    margin: 0 !important;
+}

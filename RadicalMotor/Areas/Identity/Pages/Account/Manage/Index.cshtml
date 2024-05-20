@@ -2,6 +2,7 @@
 @{
     ViewData["Title"] = "Profile";
     ViewData["ActivePage"] = ManageNavPages.Index;
+    Layout = "/Views/Shared/_Layout.cshtml";
 }
 <script> $(document).ready(function() {
         var readURL=function(input) {
@@ -18,7 +19,7 @@
         });
         }); </script>
 
-<div class="container bootstrap snippet">
+<div class="profile-content container bootstrap snippet">
     <div class="row">
         <div class="col-sm-10"><h1>User name</h1></div>
     </div>

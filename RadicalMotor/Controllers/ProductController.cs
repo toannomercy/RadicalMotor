@@ -84,9 +84,6 @@ namespace RadicalMotor.Controllers
             return View();
         }
 
-        // POST: Product/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("ChassisNumber,VehicleName,EntryDate,Version,PriceListID,VehicleTypeId")] Vehicle vehicle)
@@ -120,9 +117,7 @@ namespace RadicalMotor.Controllers
             return View(vehicle);
         }
 
-        // POST: Product/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(string id, [Bind("ChassisNumber,VehicleName,EntryDate,Version,PriceListID,VehicleTypeId")] Vehicle vehicle)
@@ -157,7 +152,6 @@ namespace RadicalMotor.Controllers
             return View(vehicle);
         }
 
-        // GET: Product/Delete/5
         public async Task<IActionResult> Delete(string id)
         {
             if (id == null)
@@ -177,7 +171,6 @@ namespace RadicalMotor.Controllers
             return View(vehicle);
         }
 
-        // POST: Product/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(string id)

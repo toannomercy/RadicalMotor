@@ -44,6 +44,12 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
+app.MapAreaControllerRoute(
+    name: "Admin",
+    areaName: "Admin",
+    pattern: "Admin/{controller=Vehicle}/{action=Index}/{id?}");
+
+
 await CreateRoles(app.Services);
 
 app.Run();
