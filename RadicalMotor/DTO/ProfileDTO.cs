@@ -34,4 +34,5 @@ namespace RadicalMotor.Models
 
         public string Username { get; set; }
     }
+
 }

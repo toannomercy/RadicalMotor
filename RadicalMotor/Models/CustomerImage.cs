@@ -6,6 +6,7 @@ namespace RadicalMotor.Models
     public class CustomerImage
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public string ImageId { get; set; }
 
         [Required]

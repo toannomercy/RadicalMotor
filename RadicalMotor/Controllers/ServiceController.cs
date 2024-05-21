@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using RadicalMotor.DTO;
 using RadicalMotor.Models;
 using RadicalMotor.Repository;
@@ -31,6 +32,14 @@ namespace RadicalMotor.Controllers
 		[HttpPost]
 		public async Task<IActionResult> BookAppointment([FromBody] AppointmentDetailDTO model)
 		{
+			var isCaptchaValid = await ValidateRecaptcha(model.RecaptchaResponse);
+			if (!isCaptchaValid)
+			{
+				ModelState.AddModelError("", "Please verify that you are not a robot.");
+				var services = await _appointmentRepository.GetAllServicesAsync();
+				return View("Index", new AppointmentDTO { Services = services });
+			}
+
 			if (!ModelState.IsValid)
 			{
 				return Json(new { success = false, errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList() });
@@ -83,5 +92,23 @@ namespace RadicalMotor.Controllers
 
 			return Json(new { success = true, message = "Your appointment has been booked successfully." });
 		}
-	}
+        private async Task<bool> ValidateRecaptcha(string recaptchaResponse)
+        {
+            var secretKey = "6LfWwOIpAAAAALbGuMWQy9Z2M7esPhlWLtNX63Vs";
+            var client = new HttpClient();
+            var response = await client.GetStringAsync($"https://www.google.com/recaptcha/api/siteverify?secret={secretKey}&response={recaptchaResponse}");
+            var captchaResult = JsonConvert.DeserializeObject<CaptchaResponse>(response);
+            return captchaResult.Success;
+        }
+
+        public class CaptchaResponse
+        {
+            public bool Success { get; set; }
+            [JsonProperty("challenge_ts")]
+            public DateTime ChallengeTimestamp { get; set; }
+            public string Hostname { get; set; }
+            [JsonProperty("error-codes")]
+            public List<string> ErrorCodes { get; set; }
+        }
+    }
 }

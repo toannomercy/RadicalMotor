@@ -18,5 +18,6 @@ namespace RadicalMotor.DTO
 		public DateTime ServiceDate { get; set; }
 
 		public string Notes { get; set; }
+		public string RecaptchaResponse { get; set; }
 	}
 }

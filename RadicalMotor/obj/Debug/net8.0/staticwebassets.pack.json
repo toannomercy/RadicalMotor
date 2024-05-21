@@ -137,6 +137,10 @@
       "PackagePath": "staticwebassets\\img\\news-3.jpg"
     },
     {
+      "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\olli-the-polite-cat.jpg",
+      "PackagePath": "staticwebassets\\img\\olli-the-polite-cat.jpg"
+    },
+    {
       "Id": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\psd-1.jpeg",
       "PackagePath": "staticwebassets\\img\\psd-1.jpeg"
     },

@@ -321,6 +321,7 @@ namespace RadicalMotor.Migrations
             modelBuilder.Entity("RadicalMotor.Models.CustomerImage", b =>
                 {
                     b.Property<string>("ImageId")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("CustomerId")
@@ -810,7 +811,7 @@ namespace RadicalMotor.Migrations
             modelBuilder.Entity("RadicalMotor.Models.CustomerImage", b =>
                 {
                     b.HasOne("RadicalMotor.Models.Customer", "Customer")
-                        .WithMany()
+                        .WithMany("CustomerImages")
                         .HasForeignKey("CustomerId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -962,6 +963,8 @@ namespace RadicalMotor.Migrations
             modelBuilder.Entity("RadicalMotor.Models.Customer", b =>
                 {
                     b.Navigation("CreatedAppointments");
+
+                    b.Navigation("CustomerImages");
                 });
 
             modelBuilder.Entity("RadicalMotor.Models.Employee", b =>

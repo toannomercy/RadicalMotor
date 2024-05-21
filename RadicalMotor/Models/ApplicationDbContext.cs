@@ -154,6 +154,34 @@ namespace RadicalMotor.Models
 				.WithMany()
 				.HasForeignKey(ic => ic.InstallmentPlanId)
 				.OnDelete(DeleteBehavior.NoAction);
-		}
+
+            modelBuilder.Entity<Appointment>()
+            .Property(a => a.TotalAmount)
+            .HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<AppointmentDetail>()
+                .Property(ad => ad.ServiceAmount)
+                .HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<InstallmentInvoice>()
+                .Property(ii => ii.AmountPaid)
+                .HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<InstallmentPlan>()
+                .Property(ip => ip.InterestRate)
+                .HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<PriceList>()
+                .Property(pl => pl.Price)
+                .HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<Promotion>()
+                .Property(p => p.Discount)
+                .HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<Service>()
+                .Property(s => s.ServicePrice)
+                .HasColumnType("decimal(18,2)");
+        }
 	}
 }

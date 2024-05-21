@@ -1,120 +1,120 @@
-﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Identity;
 using RadicalMotor.Models;
-using RadicalMotor.Repository;
-using SixLabors.ImageSharp;
-using SixLabors.ImageSharp.Processing;
-using System;
-using System.IO;
-using System.Linq;
 using System.Threading.Tasks;
+using System.Linq;
+using System.IO;
+using Microsoft.AspNetCore.Http;
 
 namespace RadicalMotor.Controllers
 {
     public class ProfileController : Controller
     {
         private readonly UserManager<ApplicationUser> _userManager;
-        private readonly SignInManager<ApplicationUser> _signInManager;
-        private readonly ICustomerRepository _customerRepository;
-        private readonly IWebHostEnvironment _webHostEnvironment;
+        private readonly ApplicationDbContext _context;
 
-        public ProfileController(
-            UserManager<ApplicationUser> userManager,
-            SignInManager<ApplicationUser> signInManager,
-            ICustomerRepository customerRepository,
-            IWebHostEnvironment webHostEnvironment)
+        public ProfileController(UserManager<ApplicationUser> userManager, ApplicationDbContext context)
         {
             _userManager = userManager;
-            _signInManager = signInManager;
-            _customerRepository = customerRepository;
-            _webHostEnvironment = webHostEnvironment;
+            _context = context;
         }
 
         [HttpPost]
-        public async Task<IActionResult> UpdateProfile(ProfileDTO model)
+        public async Task<IActionResult> UpdateProfile([FromForm] ProfileDTO model)
         {
-            var user = await _userManager.GetUserAsync(User);
-            if (user == null)
+            if (string.IsNullOrEmpty(model.Password))
             {
-                ModelState.AddModelError(string.Empty, "Unable to load user.");
-                return RedirectToAction("Index", "Manage", new { area = "Identity" });
+                ModelState.Remove("Password");
+                ModelState.Remove("ConfirmPassword");
             }
+
+            if (model.ProfileImage == null)
+            {
+                ModelState.Remove(nameof(model.ProfileImage));
+                ModelState.Remove(nameof(model.ProfileImageUrl));
+            }
+
 
             if (!ModelState.IsValid)
             {
-                ModelState.AddModelError(string.Empty, "Model validation failed.");
-                return RedirectToAction("Index", "Manage", new { area = "Identity" });
+                var modelStateEntries = ModelState.Select(x => new { x.Key, Errors = x.Value.Errors.Select(e => e.ErrorMessage).ToList() });
+                foreach (var entry in modelStateEntries)
+                {
+                    Console.WriteLine($"Key: {entry.Key}, Errors: {string.Join(", ", entry.Errors)}");
+                }
+
+                var errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList();
+                return Json(new { success = false, errors });
             }
 
-            var customer = await _customerRepository.GetCustomerByUserIdAsync(user.Id);
-            if (customer == null)
-            {
-                ModelState.AddModelError(string.Empty, "Unable to load customer.");
-                return RedirectToAction("Index", "Manage", new { area = "Identity" });
-            }
 
-            // Update user fields
-            if (model.Email != user.Email)
+            var user = await _userManager.GetUserAsync(User);
+            var customer = _context.Customers.FirstOrDefault(c => c.UserId == user.Id);
+            var customerImage = _context.CustomerImages.FirstOrDefault(ci => ci.CustomerId == customer.CustomerId);
+
+            if (user != null)
             {
                 user.Email = model.Email;
-                var setEmailResult = await _userManager.UpdateAsync(user);
-                if (!setEmailResult.Succeeded)
+                user.UserName = model.Username;
+                await _userManager.UpdateAsync(user);
+
+                if (!string.IsNullOrEmpty(model.Password))
                 {
-                    ModelState.AddModelError(string.Empty, "Unexpected error when trying to set email.");
-                    return RedirectToAction("Index", "Manage", new { area = "Identity" });
+                    var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+                    var result = await _userManager.ResetPasswordAsync(user, token, model.Password);
+                    if (!result.Succeeded)
+                    {
+                        return Json(new { success = false, errors = result.Errors.Select(e => e.Description).ToList() });
+                    }
                 }
             }
 
-            if (model.PhoneNumber != user.PhoneNumber)
+            if (customer != null)
             {
-                var setPhoneResult = await _userManager.SetPhoneNumberAsync(user, model.PhoneNumber);
-                if (!setPhoneResult.Succeeded)
-                {
-                    ModelState.AddModelError(string.Empty, "Unexpected error when trying to set phone number.");
-                    return RedirectToAction("Index", "Manage", new { area = "Identity" });
-                }
+                customer.FullName = model.FullName;
+                customer.PhoneNumber = model.PhoneNumber;
+                customer.Address = model.Address;
+                customer.DateOfBirth = model.DateOfBirth != DateTime.MinValue ? model.DateOfBirth : customer.DateOfBirth;
+                _context.Customers.Update(customer);
             }
 
-            // Update customer fields
-            customer.FullName = model.FullName;
-            customer.Address = model.Address;
-            customer.DateOfBirth = model.DateOfBirth;
-            await _customerRepository.UpdateAsync(customer);
-
-            // Save profile image
-            if (model.ProfileImage != null && model.ProfileImage.Length > 0)
+            if (model.ProfileImage != null)
             {
-                var uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "img");
-                var uniqueFileName = Guid.NewGuid().ToString() + "_" + model.ProfileImage.FileName;
-                var filePath = Path.Combine(uploadsFolder, uniqueFileName);
-
-                using (var image = SixLabors.ImageSharp.Image.Load(model.ProfileImage.OpenReadStream()))
+                var imageUrl = await SaveProfileImageAsync(model.ProfileImage);
+                if (customerImage != null)
                 {
-                    image.Mutate(x => x.Resize(150, 150));
-                    await image.SaveAsync(filePath); // Automatic encoder selected based on file extension.
+                    customerImage.ImageUrl = imageUrl;
+                    _context.CustomerImages.Update(customerImage);
                 }
-
-                var customerImage = new CustomerImage
+                else
                 {
-                    ImageUrl = "/img/" + uniqueFileName,
-                    CustomerId = customer.CustomerId
-                };
-                await _customerRepository.AddCustomerImageAsync(customerImage);
+                    customerImage = new CustomerImage
+                    {
+                        CustomerId = customer.CustomerId,
+                        ImageUrl = imageUrl
+                    };
+                    _context.CustomerImages.Add(customerImage);
+                }
+                model.ProfileImageUrl = imageUrl;
             }
 
-            if (!string.IsNullOrEmpty(model.Password) && !string.IsNullOrEmpty(model.ConfirmPassword) && model.Password == model.ConfirmPassword)
+
+            await _context.SaveChangesAsync();
+            return Json(new { success = true, message = "Profile updated successfully!" });
+        }
+
+        private async Task<string> SaveProfileImageAsync(IFormFile profileImage)
+        {
+            var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "img");
+            Directory.CreateDirectory(uploadsFolder);
+            var uniqueFileName = Path.GetFileName(profileImage.FileName);
+            var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+            using (var stream = new FileStream(filePath, FileMode.Create))
             {
-                var changePasswordResult = await _userManager.ChangePasswordAsync(user, model.Password, model.Password);
-                if (!changePasswordResult.Succeeded)
-                {
-                    ModelState.AddModelError(string.Empty, "Unexpected error when trying to set password.");
-                    return RedirectToAction("Index", "Manage", new { area = "Identity" });
-                }
+                await profileImage.CopyToAsync(stream);
             }
-
-            await _signInManager.RefreshSignInAsync(user);
-            TempData["SuccessMessage"] = "Your profile has been updated";
-            return RedirectToAction("Index", "Manage", new { area = "Identity" });
+            return $"/img/{uniqueFileName}";
         }
     }
 }

@@ -5,6 +5,8 @@
 	Layout = "~/Views/Shared/MyLayouts.cshtml";
 }
 <script src="/js/services.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 <script>
 	$(document).ready(function () {
 		$('#datetimepicker1').datetimepicker({
@@ -13,12 +15,19 @@
 		});
 
 		$('#book-now-button').click(function () {
+			$(this).hide();
+			$('#captchaContainer').show();
+		});
+
+		$('#appointment-form').submit(function (event) {
+			event.preventDefault();
 			var formData = {
 				Name: $('#Name').val(),
 				PhoneNumber: $('#PhoneNumber').val(),
 				SelectedServiceId: $('#SelectedServiceId').val(),
 				ServiceDate: moment($('#ServiceDate').val(), 'MM/DD/YYYY').toISOString(),
-				Notes: $('#Notes').val()
+				Notes: $('#Notes').val(),
+				RecaptchaResponse: $('#g-recaptcha-response').val()
 			};
 
 			$.ajax({
@@ -30,6 +39,8 @@
 					if (response.success) {
 						$('#success-message').removeClass('d-none').text(response.message);
 						$('#error-message').addClass('d-none');
+						$('#captchaContainer').hide();
+						$('#book-now-button').show();
 					} else {
 						$('#error-message').removeClass('d-none').text(response.message || response.errors.join(", "));
 						$('#success-message').addClass('d-none');
@@ -38,6 +49,8 @@
 				error: function (xhr, status, error) {
 					$('#error-message').removeClass('d-none').text("An error occurred: " + error);
 					$('#success-message').addClass('d-none');
+					$('#captchaContainer').hide();
+					$('#book-now-button').show();
 				}
 			});
 		});
@@ -328,8 +341,13 @@
 							</div>
 							<div class="col-12">
 								<button class="btn btn-secondary w-100 py-3" type="button" id="book-now-button">Book Now</button>
+								<div id="captchaContainer" style="display:none;">
+									<div class="g-recaptcha" data-sitekey="6LfWwOIpAAAAAJ7DECqegBRP9GpUfbRqXF0DuD7h"></div>
+									<button class="btn btn-success w-100 py-3" type="submit">Confirm Booking</button>
+								</div>
 							</div>
 						</div>
+						<input type="hidden" id="recaptchaResponse" name="recaptchaResponse">
 					</form>
 				</div>
 			</div>

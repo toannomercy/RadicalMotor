@@ -18,6 +18,8 @@
 
 <script>
     $(document).ready(function () {
+        var originalImageSrc = $('.avatar').attr('src');
+
         var readURL = function (input) {
             if (input.files && input.files[0]) {
                 var reader = new FileReader();
@@ -41,9 +43,29 @@
             formData.append("PhoneNumber", $('#phone').val());
             formData.append("Email", $('#email').val());
             formData.append("Address", $('#address').val());
-            formData.append("Password", $('#password').val());
-            formData.append("ConfirmPassword", $('#confirm_password').val());
-            formData.append("profileImage", $('.file-upload')[0].files[0]);
+
+            var dateOfBirth = $('#date_of_birth').val();
+            if (dateOfBirth) {
+                formData.append("DateOfBirth", dateOfBirth);
+            }
+
+            var password = $('#password').val();
+            var confirmPassword = $('#confirm_password').val();
+            if (password && confirmPassword) {
+                formData.append("Password", password);
+                formData.append("ConfirmPassword", confirmPassword);
+            }
+
+            var profileImage = $('.file-upload')[0].files[0];
+            if (profileImage) {
+                formData.append("ProfileImage", profileImage);
+            }
+
+            // Thêm ProfileImageUrl vào formData nếu nó có giá trị
+            var profileImageUrl = $('.avatar').attr('src');
+            if (profileImageUrl) {
+                formData.append("ProfileImageUrl", profileImageUrl);
+            }
 
             $.ajax({
                 type: "POST",
@@ -53,24 +75,21 @@
                 data: formData,
                 success: function (response) {
                     if (response.success) {
-                        $('#success-message').removeClass('d-none').text(response.message);
-                        $('#error-message').addClass('d-none');
+                        alert("Profile updated successfully!");
                     } else {
                         var errorMessage = response.message || (response.errors && response.errors.join(", ")) || "An error occurred.";
-                        $('#error-message').removeClass('d-none').text(errorMessage);
-                        $('#success-message').addClass('d-none');
+                        alert("Error: " + errorMessage);
                     }
                 },
                 error: function (xhr, status, error) {
-                    $('#error-message').removeClass('d-none').text("An error occurred: " + error);
-                    $('#success-message').addClass('d-none');
+                    alert("An error occurred: " + error);
                 }
             });
         });
 
         $("#reset-button").on('click', function () {
             $("#profile-form")[0].reset();
-            $('.avatar').attr('src', 'http://ssl.gstatic.com/accounts/ui/avatar_2x.png');
+            $('.avatar').attr('src', originalImageSrc);
         });
     });
 </script>
@@ -82,7 +101,7 @@
     <div class="row">
         <div class="col-sm-3">
             <div class="text-center">
-                <img src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png" class="avatar img-circle img-thumbnail" alt="avatar">
+                <img src="@(string.IsNullOrEmpty(Model.Input.ProfileImageUrl) ? "http://ssl.gstatic.com/accounts/ui/avatar_2x.png" : Model.Input.ProfileImageUrl)" class="avatar img-circle img-thumbnail" alt="avatar">
                 <h6>Upload a different photo...</h6>
                 <input type="file" class="text-center center-block file-upload">
             </div>
@@ -98,7 +117,7 @@
             </ul>
             <div class="tab-content p-t-4">
                 <div class="tab-pane active" id="profile">
-                    <form id="profile-form" method="post" enctype="multipart/form-data">
+                    <form asp-controller="Profile" asp-action="UpdateProfile" method="post" enctype="multipart/form-data">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -122,6 +141,10 @@
                                 <div class="form-group">
                                     <label for="address"><h4>Address</h4></label>
                                     <input type="text" class="form-control" name="address" id="address" placeholder="Address" title="Enter your address." value="@Model.Input.Address">
+                                </div>
+                                <div class="form-group">
+                                    <label for="date_of_birth"><h4>Date of Birth</h4></label>
+                                    <input type="date" class="form-control" name="date_of_birth" id="date_of_birth" title="Enter your date of birth." value="@Model.Input.DateOfBirth.ToString("yyyy-MM-dd")">
                                 </div>
                                 <div class="form-group">
                                     <label for="password"><h4>Password</h4></label>
@@ -148,6 +171,5 @@
         </div><!--/tab-content-->
     </div><!--/col-9-->
 </div><!--/row-->
-
-<div class="alert alert-success" id="success-message"></div>
-<div class="alert alert-danger" id="error-message"></div>
+<div class="alert alert-success d-none" id="success-message"></div>
+<div class="alert alert-danger d-none" id="error-message"></div>

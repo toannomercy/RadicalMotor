@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gSROAfV6K31i4tJZSZ0ueM21q7uRpbCJ1UejN9PSYCw=",
+  "Hash": "Tlr0jj4PKwpUfeD6c4jd18a29o8wxfJQRU0QWPB1Cro=",
   "Source": "RadicalMotor",
   "BasePath": "_content/RadicalMotor",
   "Mode": "Default",
@@ -1782,6 +1782,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\news-3.jpg"
+    },
+    {
+      "Identity": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\olli-the-polite-cat.jpg",
+      "SourceId": "RadicalMotor",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\",
+      "BasePath": "_content/RadicalMotor",
+      "RelativePath": "img/olli-the-polite-cat.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\olli-the-polite-cat.jpg"
     },
     {
       "Identity": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\psd-1.jpeg",
