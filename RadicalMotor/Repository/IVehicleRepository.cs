@@ -6,7 +6,7 @@ namespace RadicalMotor.Repository
     {
         Task<IEnumerable<Vehicle>> GetAllAsync();
         Task<Vehicle> GetByIdAsync(string ChassisNumber);
-        Vehicle AddVehicle(Vehicle vehicle, List<VehicleImage> images);
+        Vehicle AddVehicle(Vehicle vehicle);
         Vehicle UpdateVehicle(Vehicle vehicle, List<VehicleImage> images);
         void DeleteVehicle(string chassisNumber);
         Task<IEnumerable<Vehicle>> GetAllWithPriceListAsync();

@@ -10,6 +10,7 @@ namespace RadicalMotor.Models
         public decimal Price { get; set; }
 
         public string Status { get; set; }
-        public List<PromotionDetail> PromotionDetails { get; set; }
+        public ICollection<Vehicle>? Vehicles { get; set; }
+        public List<PromotionDetail>? PromotionDetails { get; set; }
     }
 }

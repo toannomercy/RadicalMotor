@@ -74,9 +74,15 @@
                         <div class="card-body">
                             @if (ViewBag.VehicleImages != null && ViewBag.VehicleImages.ContainsKey(Vehicle.ChassisNumber))
                             {
-                                var images = ViewBag.VehicleImages[Vehicle.ChassisNumber];
+@*                                 var images = ViewBag.VehicleImages[Vehicle.ChassisNumber];
                                 foreach (var image in images)
                                 {
+                                    <img src="@image.ImageUrl" class="card-img-bottom img-fluid" alt="Vehicle Image">
+                                } *@  
+                                var images = ViewBag.VehicleImages[Vehicle.ChassisNumber];
+                                for (int i = 0; i < 1; i++)
+                                {
+                                    var image = images[i];
                                     <img src="@image.ImageUrl" class="card-img-bottom img-fluid" alt="Vehicle Image">
                                 }
                             }

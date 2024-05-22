@@ -321,6 +321,7 @@ namespace RadicalMotor.Migrations
             modelBuilder.Entity("RadicalMotor.Models.CustomerImage", b =>
                 {
                     b.Property<string>("ImageId")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("CustomerId")
@@ -533,7 +534,7 @@ namespace RadicalMotor.Migrations
 
                     b.HasKey("PriceListId");
 
-                    b.ToTable("PriceList");
+                    b.ToTable("PriceLists");
                 });
 
             modelBuilder.Entity("RadicalMotor.Models.Promotion", b =>
@@ -668,8 +669,11 @@ namespace RadicalMotor.Migrations
 
             modelBuilder.Entity("RadicalMotor.Models.VehicleImage", b =>
                 {
-                    b.Property<string>("ImageId")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("ImageId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ImageId"));
 
                     b.Property<string>("ChassisNumber")
                         .IsRequired()
@@ -916,13 +920,13 @@ namespace RadicalMotor.Migrations
             modelBuilder.Entity("RadicalMotor.Models.Vehicle", b =>
                 {
                     b.HasOne("RadicalMotor.Models.PriceList", "PriceList")
-                        .WithMany()
+                        .WithMany("Vehicles")
                         .HasForeignKey("PriceListID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("RadicalMotor.Models.VehicleType", "VehicleType")
-                        .WithMany()
+                        .WithMany("Vehicles")
                         .HasForeignKey("VehicleTypeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -972,6 +976,8 @@ namespace RadicalMotor.Migrations
             modelBuilder.Entity("RadicalMotor.Models.PriceList", b =>
                 {
                     b.Navigation("PromotionDetails");
+
+                    b.Navigation("Vehicles");
                 });
 
             modelBuilder.Entity("RadicalMotor.Models.Promotion", b =>
@@ -987,6 +993,11 @@ namespace RadicalMotor.Migrations
             modelBuilder.Entity("RadicalMotor.Models.Vehicle", b =>
                 {
                     b.Navigation("VehicleImages");
+                });
+
+            modelBuilder.Entity("RadicalMotor.Models.VehicleType", b =>
+                {
+                    b.Navigation("Vehicles");
                 });
 #pragma warning restore 612, 618
         }

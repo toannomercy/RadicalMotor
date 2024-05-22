@@ -7,7 +7,8 @@ namespace RadicalMotor.Models
     {
 
         [Key]
-        public string ImageId { get; set; }
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int ImageId { get; set; }
 
         [Required]
         public string ImageUrl { get; set; }

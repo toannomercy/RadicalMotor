@@ -16,5 +16,7 @@ namespace RadicalMotor.Models
         public string SupplierId { get; set; }
 
         public Supplier Supplier { get; set; }
+
+        public ICollection<Vehicle>? Vehicles { get; set; }
     }
 }

@@ -29,10 +29,9 @@ namespace RadicalMotor.Repository
             await _context.SaveChangesAsync();
         }
 
-        public Vehicle AddVehicle(Vehicle vehicle, List<VehicleImage> images)
+        public Vehicle AddVehicle(Vehicle vehicle)
         {
             _context.Vehicles.Add(vehicle);
-            _context.VehicleImages.AddRange(images);
             _context.SaveChanges();
             return vehicle;
         }
