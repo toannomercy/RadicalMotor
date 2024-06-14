@@ -1,99 +1,197 @@
 ﻿@page
+@model RadicalMotor.Areas.Identity.Pages.Account.Manage.IndexModel
 @{
     ViewData["Title"] = "Profile";
     ViewData["ActivePage"] = ManageNavPages.Index;
-    Layout = "/Views/Shared/_Layout.cshtml";
 }
-<script> $(document).ready(function() {
-        var readURL=function(input) {
-        if (input.files && input.files[0]) {
-        var reader=new FileReader();
-        reader.onload=function (e) {
-        $('.avatar').attr('src', e.target.result);
-        }
-        reader.readAsDataURL(input.files[0]);
-        }
-        }
-        $(".file-upload").on('change', function(){
-        readURL(this);
-        });
-        }); </script>
+<style>
+    .avatar {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+    }
 
-<div class="profile-content container bootstrap snippet">
+    .alert {
+        display: none;
+    }
+</style>
+
+<script>
+    $(document).ready(function () {
+        var originalImageSrc = $('.avatar').attr('src');
+
+        var readURL = function (input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    $('.avatar').attr('src', e.target.result);
+                }
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        $(".file-upload").on('change', function () {
+            readURL(this);
+        });
+
+        $("#save-button").on('click', function (e) {
+            e.preventDefault();
+
+            var formData = new FormData();
+            formData.append("Username", $('#username').val());
+            formData.append("FullName", $('#full_name').val());
+            formData.append("PhoneNumber", $('#phone').val());
+            formData.append("Email", $('#email').val());
+            formData.append("Address", $('#address').val());
+            formData.append("IdentityCard", $('#identity_card').val());
+            formData.append("Gender", selectedGender);
+
+            var selectedGender = "@Model.Input.Gender";
+            $("#gender").val(selectedGender);
+
+            var dateOfBirth = $('#date_of_birth').val();
+            if (dateOfBirth) {
+                formData.append("DateOfBirth", dateOfBirth);
+            }
+
+            var password = $('#password').val();
+            var confirmPassword = $('#confirm_password').val();
+            if (password && confirmPassword) {
+                formData.append("Password", password);
+                formData.append("ConfirmPassword", confirmPassword);
+            }
+
+            var profileImage = $('.file-upload')[0].files[0];
+            if (profileImage) {
+                formData.append("ProfileImage", profileImage);
+            }
+
+            var profileImageUrl = $('.avatar').attr('src');
+            if (profileImageUrl) {
+                formData.append("ProfileImageUrl", profileImageUrl);
+            }
+
+            $.ajax({
+                type: "POST",
+                url: "@Url.Action("UpdateProfile", "Profile")",
+                contentType: false,
+                processData: false,
+                data: formData,
+                success: function (response) {
+                    if (response.success) {
+                        alert("Profile updated successfully!");
+                    } else {
+                        var errorMessage = response.message || (response.errors && response.errors.join(", ")) || "An error occurred.";
+                        alert("Error: " + errorMessage);
+                    }
+                },
+                error: function (xhr, status, error) {
+                    alert("An error occurred: " + error);
+                }
+            });
+        });
+
+        $("#reset-button").on('click', function () {
+            $("#profile-form")[0].reset();
+            $('.avatar').attr('src', originalImageSrc);
+        });
+    });
+</script>
+
+<div class="container bootstrap snippet">
     <div class="row">
-        <div class="col-sm-10"><h1>User name</h1></div>
+        <div class="col-sm-10"><h1>@Model.Input.Username</h1></div>
     </div>
     <div class="row">
         <div class="col-sm-3">
             <div class="text-center">
-                <img src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png" class="avatar img-circle img-thumbnail" alt="avatar">
+                <img src="@(string.IsNullOrEmpty(Model.Input.ProfileImageUrl) ? "http://ssl.gstatic.com/accounts/ui/avatar_2x.png" : Model.Input.ProfileImageUrl)" class="avatar img-circle img-thumbnail" alt="avatar">
                 <h6>Upload a different photo...</h6>
                 <input type="file" class="text-center center-block file-upload">
-            </div></hr><br>
+            </div>
         </div><!--/col-3-->
         <div class="col-sm-9">
-            
+            @if (TempData["ErrorMessage"] != null)
+            {
+                <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+            }
             <ul class="nav nav-tabs">
                 <li class="nav-item">
-                    <a class="nav-link active" data-toggle="tab" asp-area="Identity" asp-page="/Account/Manage/Index">Profile</a>
+                    <a class="nav-link active" data-toggle="tab" href="#profile">Profile</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" asp-area="Identity" asp-page="/Account/Manage/Service">Service</a>
+                    <a class="nav-link" data-toggle="tab" href="#service">Service</a>
                 </li>
-                
             </ul>
             <div class="tab-content p-t-4">
                 <div class="tab-pane active" id="profile">
-                    <div class="row">
-                        <div class="col-md-6">
-
-                            <div class="form-group">
-                                <label for="username"><h4>Username</h4></label>
-                                <input type="text" class="form-control" name="username" id="username" placeholder="Username" title="Enter your username.">
+                    <form asp-controller="Profile" asp-action="UpdateProfile" method="post" enctype="multipart/form-data">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="username"><h4>Username</h4></label>
+                                    <input type="text" class="form-control" name="username" id="username" placeholder="Username" title="Enter your username." value="@Model.Input.Username">
+                                </div>
+                                <div class="form-group">
+                                    <label for="full_name"><h4>Full name</h4></label>
+                                    <input type="text" class="form-control" name="full_name" id="full_name" placeholder="Full name" title="Enter your full name." value="@Model.Input.FullName">
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone"><h4>Phone</h4></label>
+                                    <input type="text" class="form-control" name="phone" id="phone" placeholder="Enter phone" title="Enter your phone number." value="@Model.Input.PhoneNumber">
+                                </div>
+                                <div class="form-group">
+                                    <label for="identity_card"><h4>Identity Card</h4></label>
+                                    <input type="text" class="form-control" name="identity_card" id="identity_card" placeholder="Identity Card" title="Enter your identity card number." value="@Model.Input.IdentityCard">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email"><h4>Email</h4></label>
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="you@email.com" title="Enter your email." value="@Model.Input.Email">
+                                </div>
                             </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="address"><h4>Address</h4></label>
+                                    <input type="text" class="form-control" name="address" id="address" placeholder="Address" title="Enter your address." value="@Model.Input.Address">
+                                </div>
+                                <div class="form-group">
+                                    <label for="gender"><h4>Gender</h4></label>
+                                    <select class="form-control" id="gender" name="gender">
+                                        <option value="">Select gender</option>
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                </div>
 
-                            <div class="form-group">
-                                <label for="first_name"><h4>Full name</h4></label>
-                                <input type="text" class="form-control" name="full_name" id="full_name" placeholder="Full name" title="Enter your full name.">
-                            </div>
-
-                            <div class="form-group">
-                                <label for="phone"><h4>Phone</h4></label>
-                                <input type="text" class="form-control" name="phone" id="phone" placeholder="Enter phone" title="Enter your phone number.">
-                            </div>
-
-                            <div class="form-group">
-                                <label for="email"><h4>Email</h4></label>
-                                <input type="email" class="form-control" name="email" id="email" placeholder="you@email.com" title="Enter your email.">
+                                <div class="form-group">
+                                    <label for="date_of_birth"><h4>Date of Birth</h4></label>
+                                    <input type="date" class="form-control" name="date_of_birth" id="date_of_birth" title="Enter your date of birth." value="@Model.Input.DateOfBirth.ToString("yyyy-MM-dd")">
+                                </div>
+                                <div class="form-group">
+                                    <label for="password"><h4>Password</h4></label>
+                                    <input type="password" class="form-control" name="password" id="password" placeholder="Password" title="Enter your password.">
+                                </div>
+                                <div class="form-group">
+                                    <label for="confirm_password"><h4>Confirm password</h4></label>
+                                    <input type="password" class="form-control" name="confirm_password" id="confirm_password" placeholder="Confirm password" title="Confirm your password.">
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            
-                            <div class="form-group">
-                                <label for="location"><h4>Address</h4></label>
-                                <input type="text" class="form-control" name="address" id="address" placeholder="Address" title="Enter your address.">
-                            </div>
-
-                            <div class="form-group">
-                                <label for="password"><h4>Password</h4></label>
-                                <input type="password" class="form-control" name="password" id="password" placeholder="Password" title="Enter your password.">
-                            </div>
-
-                            <div class="form-group">
-                                <label for="confirm_password"><h4>Confirm password</h4></label>
-                                <input type="password" class="form-control" name="confirm_password" id="confirm_password" placeholder="Confirm password" title="Confirm your password.">
+                        <div class="form-group">
+                            <div class="col-xs-12">
+                                <br>
+                                <button id="save-button" class="btn btn-lg btn-success" type="button"><i class="glyphicon glyphicon-ok-sign"></i> Save</button>
+                                <button id="reset-button" class="btn btn-lg" type="button"><i class="glyphicon glyphicon-repeat"></i> Reset</button>
                             </div>
                         </div>
+                    </form>
                 </div><!--/tab-pane-->
-
-                <div class="tab-pane" id="messages">
-                </div><!--/tab-pane-->
-                
-                <div class="tab-pane" id="settings">
-                </div>
-
+                <div class="tab-pane" id="service"></div><!--/tab-pane-->
+                <div class="tab-pane" id="settings"></div><!--/tab-pane-->
             </div><!--/tab-pane-->
         </div><!--/tab-content-->
-
     </div><!--/col-9-->
 </div><!--/row-->
+<div class="alert alert-success d-none" id="success-message"></div>
+<div class="alert alert-danger d-none" id="error-message"></div>

@@ -45,14 +45,14 @@
                         <td>@Html.DisplayFor(modelItem => item.Version)</td>
                         <td>@Html.DisplayFor(modelItem => item.PriceList.Price)</td>
                         <td>
-                            <a style="text-decoration: none;" href="@Url.Action("Edit", "Product", new { id = item.ChassisNumber })">
-                                <i class="fa fa-edit btn btn-info btn-sm"></i>
+                            <a style="text-decoration: none;" href="@Url.Action("Edit", new { id = item.ChassisNumber })">
+                                <i class="btn btn-warning btn-sm mb-1"><i class="bi bi-pencil-square"></i></i>
                             </a>
-                            <a style="text-decoration: none;" href="Admin/Detail/@item.ChassisNumber">
-                                <i class="btn btn-warning btn-sm">Details</i>
+                            <a style="text-decoration: none;" href="@Url.Action("Detail", new { id = item.ChassisNumber })">
+                                <i class="btn btn-info btn-sm mb-1"><i class="bi bi-info-circle"></i></i>
                             </a>
-                            <a href="@Url.Action("Delete", "Product", new { id = item.ChassisNumber })">
-                                <i class="btn btn-danger btn-sm">Delete</i>
+                            <a href="@Url.Action("Delete", new { id = item.ChassisNumber })">
+                                <i class="btn btn-danger btn-sm mb-1"><i class="bi bi-trash-fill"></i></i>
                             </a>
                         </td>
                     </tr>

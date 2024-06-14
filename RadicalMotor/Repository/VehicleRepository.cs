@@ -6,7 +6,6 @@ namespace RadicalMotor.Repository
     public class VehicleRepository : IVehicleRepository
     {
         private readonly ApplicationDbContext _context;
-
         public VehicleRepository(ApplicationDbContext context)
         {
             _context = context;
@@ -20,7 +19,9 @@ namespace RadicalMotor.Repository
         }
         public async Task<Vehicle> GetByIdAsync(string id)
         {
-            return await _context.Vehicles.Include(p => p.VehicleType).FirstOrDefaultAsync(p => p.ChassisNumber == id);
+            return await _context.Vehicles.Include(p => p.VehicleType)
+                                          .Include(v => v.VehicleImages)
+                                          .FirstOrDefaultAsync(p => p.ChassisNumber == id);
         }
 
         public async Task AddAsync(Vehicle vehicle)
@@ -36,13 +37,20 @@ namespace RadicalMotor.Repository
             return vehicle;
         }
 
-        public Vehicle UpdateVehicle(Vehicle vehicle, List<VehicleImage> images)
+        public async Task<Vehicle> UpdateVehicle(Vehicle vehicle)
         {
-            _context.Vehicles.Update(vehicle);
-            var existingImages = _context.VehicleImages.Where(img => img.ChassisNumber == vehicle.ChassisNumber).ToList();
-            _context.VehicleImages.RemoveRange(existingImages);
-            _context.VehicleImages.AddRange(images);
-            _context.SaveChanges();
+            var existingVehicle = _context.Vehicles.FirstOrDefault(v => v.ChassisNumber == vehicle.ChassisNumber);
+
+            if (existingVehicle != null)
+            {
+                existingVehicle.VehicleName = vehicle.VehicleName;
+                existingVehicle.EntryDate = vehicle.EntryDate;
+                existingVehicle.Version = vehicle.Version;
+                existingVehicle.PriceListID = vehicle.PriceListID;
+                existingVehicle.VehicleTypeId = vehicle.VehicleTypeId;
+                _context.SaveChanges();
+            }
+
             return vehicle;
         }
 

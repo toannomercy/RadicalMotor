@@ -3,24 +3,92 @@
   "WorkspaceRootPath": "D:\\WorkSpaces\\RadicalMotor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Migrations\\20240522194504_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RadicalMotor\\Migrations\\20240522194504_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\models\\vehicleimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\models\\vehicleimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\views\\service\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\views\\service\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\areas\\admin\\views\\vehicle\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\areas\\admin\\views\\vehicle\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\views\\product\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\views\\product\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\views\\shared\\mylayouts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\views\\shared\\mylayouts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\areas\\admin\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\areas\\admin\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\areas\\admin\\views\\vehicle\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\areas\\admin\\views\\vehicle\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\areas\\admin\\views\\vehicle\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\areas\\admin\\views\\vehicle\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\areas\\admin\\views\\vehicle\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\areas\\admin\\views\\vehicle\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\repository\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\repository\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\repository\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\repository\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\wwwroot\\js\\services.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\wwwroot\\js\\services.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\areas\\admin\\views\\vehicle\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\areas\\admin\\views\\vehicle\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\repository\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\repository\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\repository\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\repository\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\areas\\admin\\views\\vehicle\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\areas\\admin\\views\\vehicle\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\models\\vehicleimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\models\\vehicleimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\repository\\vehicleimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,40 +99,72 @@
       "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\dto\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\dto\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\repository\\pricelistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\repository\\pricelistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\dto\\appointmentdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\dto\\appointmentdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\areas\\identity\\pages\\_authlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\areas\\identity\\pages\\_authlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\repository\\ivehicleimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\repository\\ivehicleimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Migrations\\20240614162228_add profile Image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RadicalMotor\\Migrations\\20240614162228_add profile Image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\repository\\iservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\repository\\iservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\wwwroot\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\wwwroot\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\migrations\\20240522194504_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\migrations\\20240522194504_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\models\\vehicletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\models\\vehicletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\areas\\admin\\views\\vehicle\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\areas\\admin\\views\\vehicle\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Migrations\\20240522190142_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RadicalMotor\\Migrations\\20240522190142_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Migrations\\20240522185046_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RadicalMotor\\Migrations\\20240522185046_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\repository\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\repository\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\repository\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\repository\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\models\\pricelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,14 +195,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RadicalMotor\\Migrations\\20240522134826_Add Relationship for Vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\repository\\pricelistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\repository\\pricelistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\repository\\servicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\repository\\servicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -119,10 +211,6 @@
       "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\repository\\ivehicletyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\models\\vehicleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\models\\vehicleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -131,56 +219,12 @@
       "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\views\\service\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\views\\service\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\areas\\identity\\pages\\_authlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\areas\\identity\\pages\\_authlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\wwwroot\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\wwwroot\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\views\\shared\\mylayouts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\views\\shared\\mylayouts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\areas\\identity\\pages\\account\\manage\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\areas\\identity\\pages\\account\\manage\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\wwwroot\\theme\\css\\sb-admin-2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\wwwroot\\theme\\css\\sb-admin-2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|solutionrelative:radicalmotor\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{899DC531-A845-4F71-8164-E2DBB31EB13D}|RadicalMotor\\RadicalMotor.csproj|d:\\workspaces\\radicalmotor\\radicalmotor\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -197,21 +241,8 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
-              "RelativeDocumentMoniker": "RadicalMotor\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
-              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
-              "RelativeToolTip": "RadicalMotor\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAQAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-15T09:38:13.716Z",
-              "IsPinned": true
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -222,67 +253,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20240522194504_Initial.cs",
-              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Migrations\\20240522194504_Initial.cs",
-              "RelativeDocumentMoniker": "RadicalMotor\\Migrations\\20240522194504_Initial.cs",
-              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Migrations\\20240522194504_Initial.cs",
-              "RelativeToolTip": "RadicalMotor\\Migrations\\20240522194504_Initial.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T19:45:04.884Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "AppointmentDTO.cs",
-              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\DTO\\AppointmentDTO.cs",
-              "RelativeDocumentMoniker": "RadicalMotor\\DTO\\AppointmentDTO.cs",
-              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\DTO\\AppointmentDTO.cs",
-              "RelativeToolTip": "RadicalMotor\\DTO\\AppointmentDTO.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAwwBwAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T12:27:59.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "VehicleController.cs",
-              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Admin\\Controllers\\VehicleController.cs",
-              "RelativeDocumentMoniker": "RadicalMotor\\Areas\\Admin\\Controllers\\VehicleController.cs",
-              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Admin\\Controllers\\VehicleController.cs",
-              "RelativeToolTip": "RadicalMotor\\Areas\\Admin\\Controllers\\VehicleController.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAIwDcAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T04:44:46.798Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Admin\\Views\\Vehicle\\Create.cshtml",
-              "RelativeDocumentMoniker": "RadicalMotor\\Areas\\Admin\\Views\\Vehicle\\Create.cshtml",
-              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Admin\\Views\\Vehicle\\Create.cshtml",
-              "RelativeToolTip": "RadicalMotor\\Areas\\Admin\\Views\\Vehicle\\Create.cshtml",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAAAEAAAAAAAAAA",
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "RadicalMotor\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "RadicalMotor\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAFMAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-19T06:08:09.569Z",
+              "WhenOpened": "2024-05-19T06:34:11.331Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Admin\\Views\\Vehicle\\Index.cshtml",
-              "RelativeDocumentMoniker": "RadicalMotor\\Areas\\Admin\\Views\\Vehicle\\Index.cshtml",
-              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Admin\\Views\\Vehicle\\Index.cshtml",
-              "RelativeToolTip": "RadicalMotor\\Areas\\Admin\\Views\\Vehicle\\Index.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACUAAAAAAAAA",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Views\\Service\\Index.cshtml",
+              "RelativeDocumentMoniker": "RadicalMotor\\Views\\Service\\Index.cshtml",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Views\\Service\\Index.cshtml",
+              "RelativeToolTip": "RadicalMotor\\Views\\Service\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-19T04:47:09.192Z",
+              "WhenOpened": "2024-05-15T12:38:37.22Z",
               "EditorCaption": ""
             },
             {
@@ -291,16 +283,468 @@
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "RadicalMotor\\Views\\Product\\Index.cshtml",
-              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "RadicalMotor\\Views\\Product\\Index.cshtml",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAkwFUAAAA5AAAA",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Views\\Product\\Index.cshtml*",
+              "RelativeToolTip": "RadicalMotor\\Views\\Product\\Index.cshtml*",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEQAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-19T04:38:31.159Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "RadicalMotor\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "RadicalMotor\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAwDMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T05:41:08.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VehicleController.cs",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Admin\\Controllers\\VehicleController.cs",
+              "RelativeDocumentMoniker": "RadicalMotor\\Areas\\Admin\\Controllers\\VehicleController.cs",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Admin\\Controllers\\VehicleController.cs",
+              "RelativeToolTip": "RadicalMotor\\Areas\\Admin\\Controllers\\VehicleController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAuwCMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T04:44:46.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyLayouts.cshtml",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Views\\Shared\\MyLayouts.cshtml",
+              "RelativeDocumentMoniker": "RadicalMotor\\Views\\Shared\\MyLayouts.cshtml",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Views\\Shared\\MyLayouts.cshtml",
+              "RelativeToolTip": "RadicalMotor\\Views\\Shared\\MyLayouts.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFoAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T10:31:19.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Views\\Product\\Detail.cshtml",
+              "RelativeDocumentMoniker": "RadicalMotor\\Views\\Product\\Detail.cshtml",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Views\\Product\\Detail.cshtml",
+              "RelativeToolTip": "RadicalMotor\\Views\\Product\\Detail.cshtml",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T10:58:10.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeDocumentMoniker": "RadicalMotor\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml*",
+              "RelativeToolTip": "RadicalMotor\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml*",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAAAHsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T16:09:32.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Admin\\Views\\Vehicle\\Index.cshtml",
+              "RelativeDocumentMoniker": "RadicalMotor\\Areas\\Admin\\Views\\Vehicle\\Index.cshtml",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Admin\\Views\\Vehicle\\Index.cshtml",
+              "RelativeToolTip": "RadicalMotor\\Areas\\Admin\\Views\\Vehicle\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAADgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T04:47:09.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Admin\\Views\\Vehicle\\Edit.cshtml",
+              "RelativeDocumentMoniker": "RadicalMotor\\Areas\\Admin\\Views\\Vehicle\\Edit.cshtml",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Admin\\Views\\Vehicle\\Edit.cshtml",
+              "RelativeToolTip": "RadicalMotor\\Areas\\Admin\\Views\\Vehicle\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T17:53:10.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Admin\\Views\\Vehicle\\Detail.cshtml",
+              "RelativeDocumentMoniker": "RadicalMotor\\Areas\\Admin\\Views\\Vehicle\\Detail.cshtml",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Admin\\Views\\Vehicle\\Detail.cshtml",
+              "RelativeToolTip": "RadicalMotor\\Areas\\Admin\\Views\\Vehicle\\Detail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T18:04:55.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "RadicalMotor\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "RadicalMotor\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAwwCkAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T10:12:03.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppointmentRepository.cs",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Repository\\AppointmentRepository.cs",
+              "RelativeDocumentMoniker": "RadicalMotor\\Repository\\AppointmentRepository.cs",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Repository\\AppointmentRepository.cs",
+              "RelativeToolTip": "RadicalMotor\\Repository\\AppointmentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T21:11:45.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Repository\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "RadicalMotor\\Repository\\ICustomerRepository.cs",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Repository\\ICustomerRepository.cs",
+              "RelativeToolTip": "RadicalMotor\\Repository\\ICustomerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T16:19:06.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Program.cs",
+              "RelativeDocumentMoniker": "RadicalMotor\\Program.cs",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Program.cs",
+              "RelativeToolTip": "RadicalMotor\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T08:12:33.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ServiceController.cs",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Controllers\\ServiceController.cs",
+              "RelativeDocumentMoniker": "RadicalMotor\\Controllers\\ServiceController.cs",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Controllers\\ServiceController.cs",
+              "RelativeToolTip": "RadicalMotor\\Controllers\\ServiceController.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAEsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T12:24:51.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Admin\\Views\\Vehicle\\Delete.cshtml",
+              "RelativeDocumentMoniker": "RadicalMotor\\Areas\\Admin\\Views\\Vehicle\\Delete.cshtml",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Admin\\Views\\Vehicle\\Delete.cshtml",
+              "RelativeToolTip": "RadicalMotor\\Areas\\Admin\\Views\\Vehicle\\Delete.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T17:39:22.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "services.js",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\js\\services.js",
+              "RelativeDocumentMoniker": "RadicalMotor\\wwwroot\\js\\services.js",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\js\\services.js",
+              "RelativeToolTip": "RadicalMotor\\wwwroot\\js\\services.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-14T21:15:55.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IVehicleRepository.cs",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Repository\\IVehicleRepository.cs",
+              "RelativeDocumentMoniker": "RadicalMotor\\Repository\\IVehicleRepository.cs",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Repository\\IVehicleRepository.cs",
+              "RelativeToolTip": "RadicalMotor\\Repository\\IVehicleRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T05:36:45.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "VehicleRepository.cs",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Repository\\VehicleRepository.cs",
+              "RelativeDocumentMoniker": "RadicalMotor\\Repository\\VehicleRepository.cs",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Repository\\VehicleRepository.cs",
+              "RelativeToolTip": "RadicalMotor\\Repository\\VehicleRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T05:37:08.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Admin\\Views\\Vehicle\\Create.cshtml",
+              "RelativeDocumentMoniker": "RadicalMotor\\Areas\\Admin\\Views\\Vehicle\\Create.cshtml",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Admin\\Views\\Vehicle\\Create.cshtml",
+              "RelativeToolTip": "RadicalMotor\\Areas\\Admin\\Views\\Vehicle\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T06:08:09.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "VehicleImageRepository.cs",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Repository\\VehicleImageRepository.cs",
+              "RelativeDocumentMoniker": "RadicalMotor\\Repository\\VehicleImageRepository.cs",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Repository\\VehicleImageRepository.cs",
+              "RelativeToolTip": "RadicalMotor\\Repository\\VehicleImageRepository.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAwwC8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T05:06:13.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Models\\Vehicle.cs",
+              "RelativeDocumentMoniker": "RadicalMotor\\Models\\Vehicle.cs",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Models\\Vehicle.cs",
+              "RelativeToolTip": "RadicalMotor\\Models\\Vehicle.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAYwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T05:16:14.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PriceListRepository.cs",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Repository\\PriceListRepository.cs",
+              "RelativeDocumentMoniker": "RadicalMotor\\Repository\\PriceListRepository.cs",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Repository\\PriceListRepository.cs",
+              "RelativeToolTip": "RadicalMotor\\Repository\\PriceListRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T12:57:32.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "VehicleImage.cs",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Models\\VehicleImage.cs",
+              "RelativeDocumentMoniker": "RadicalMotor\\Models\\VehicleImage.cs",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Models\\VehicleImage.cs",
+              "RelativeToolTip": "RadicalMotor\\Models\\VehicleImage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T05:17:31.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_AuthLayout.cshtml",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Identity\\Pages\\_AuthLayout.cshtml",
+              "RelativeDocumentMoniker": "RadicalMotor\\Areas\\Identity\\Pages\\_AuthLayout.cshtml",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Identity\\Pages\\_AuthLayout.cshtml",
+              "RelativeToolTip": "RadicalMotor\\Areas\\Identity\\Pages\\_AuthLayout.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAwAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T18:07:39.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IVehicleImageRepository.cs",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Repository\\IVehicleImageRepository.cs",
+              "RelativeDocumentMoniker": "RadicalMotor\\Repository\\IVehicleImageRepository.cs",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Repository\\IVehicleImageRepository.cs",
+              "RelativeToolTip": "RadicalMotor\\Repository\\IVehicleImageRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T16:19:23.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_ManageNav.cshtml",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeDocumentMoniker": "RadicalMotor\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeToolTip": "RadicalMotor\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T17:10:50.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Repository\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "RadicalMotor\\Repository\\CustomerRepository.cs",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Repository\\CustomerRepository.cs",
+              "RelativeToolTip": "RadicalMotor\\Repository\\CustomerRepository.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAADwv1IAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T16:18:12.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IServiceRepository.cs",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Repository\\IServiceRepository.cs",
+              "RelativeDocumentMoniker": "RadicalMotor\\Repository\\IServiceRepository.cs",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Repository\\IServiceRepository.cs",
+              "RelativeToolTip": "RadicalMotor\\Repository\\IServiceRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T16:19:15.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20240614162228_add profile Image.cs",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Migrations\\20240614162228_add profile Image.cs",
+              "RelativeDocumentMoniker": "RadicalMotor\\Migrations\\20240614162228_add profile Image.cs",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Migrations\\20240614162228_add profile Image.cs",
+              "RelativeToolTip": "RadicalMotor\\Migrations\\20240614162228_add profile Image.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T16:22:28.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "RadicalMotor\\Controllers\\ProfileController.cs",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "RadicalMotor\\Controllers\\ProfileController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAADwvxgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T16:20:37.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "RadicalMotor\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "RadicalMotor\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-20T18:37:39.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\css\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "RadicalMotor\\wwwroot\\css\\bootstrap.min.css",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\css\\bootstrap.min.css",
+              "RelativeToolTip": "RadicalMotor\\wwwroot\\css\\bootstrap.min.css",
+              "ViewState": "AQIAAAwCAAAAAAAAAAAcwBwCAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-20T18:43:31.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "RadicalMotor\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "RadicalMotor\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-17T06:13:06.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "RadicalMotor\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "RelativeToolTip": "RadicalMotor\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T16:09:49.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\appsettings.json",
+              "RelativeDocumentMoniker": "RadicalMotor\\appsettings.json",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\appsettings.json",
+              "RelativeToolTip": "RadicalMotor\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-17T13:14:00.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20240522194504_Initial.cs",
+              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Migrations\\20240522194504_Initial.cs",
+              "RelativeDocumentMoniker": "RadicalMotor\\Migrations\\20240522194504_Initial.cs",
+              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Migrations\\20240522194504_Initial.cs",
+              "RelativeToolTip": "RadicalMotor\\Migrations\\20240522194504_Initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T19:45:04.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
               "Title": "VehicleType.cs",
               "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Models\\VehicleType.cs",
               "RelativeDocumentMoniker": "RadicalMotor\\Models\\VehicleType.cs",
@@ -308,77 +752,11 @@
               "RelativeToolTip": "RadicalMotor\\Models\\VehicleType.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T10:34:43.47Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T10:34:43.47Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VehicleImage.cs",
-              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Models\\VehicleImage.cs",
-              "RelativeDocumentMoniker": "RadicalMotor\\Models\\VehicleImage.cs",
-              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Models\\VehicleImage.cs",
-              "RelativeToolTip": "RadicalMotor\\Models\\VehicleImage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAgwBEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T05:17:31.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AppointmentDetailDTO.cs",
-              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\DTO\\AppointmentDetailDTO.cs",
-              "RelativeDocumentMoniker": "RadicalMotor\\DTO\\AppointmentDetailDTO.cs",
-              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\DTO\\AppointmentDetailDTO.cs",
-              "RelativeToolTip": "RadicalMotor\\DTO\\AppointmentDetailDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T06:44:36.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Models\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "RadicalMotor\\Models\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Models\\ApplicationDbContext.cs",
-              "RelativeToolTip": "RadicalMotor\\Models\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAkwFcAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T10:12:03.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "VehicleImageRepository.cs",
-              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Repository\\VehicleImageRepository.cs",
-              "RelativeDocumentMoniker": "RadicalMotor\\Repository\\VehicleImageRepository.cs",
-              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Repository\\VehicleImageRepository.cs",
-              "RelativeToolTip": "RadicalMotor\\Repository\\VehicleImageRepository.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAIwBYAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T05:06:13.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Vehicle.cs",
-              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Models\\Vehicle.cs",
-              "RelativeDocumentMoniker": "RadicalMotor\\Models\\Vehicle.cs",
-              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Models\\Vehicle.cs",
-              "RelativeToolTip": "RadicalMotor\\Models\\Vehicle.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAkwB8AAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T05:16:14.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 39,
               "Title": "20240522190142_Initial.cs",
               "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Migrations\\20240522190142_Initial.cs",
               "RelativeDocumentMoniker": "RadicalMotor\\Migrations\\20240522190142_Initial.cs",
@@ -386,12 +764,11 @@
               "RelativeToolTip": "RadicalMotor\\Migrations\\20240522190142_Initial.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T19:01:42.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T19:01:42.457Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 40,
               "Title": "20240522185046_Initial.cs",
               "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Migrations\\20240522185046_Initial.cs",
               "RelativeDocumentMoniker": "RadicalMotor\\Migrations\\20240522185046_Initial.cs",
@@ -399,38 +776,11 @@
               "RelativeToolTip": "RadicalMotor\\Migrations\\20240522185046_Initial.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T18:50:46.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T18:50:46.414Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "VehicleRepository.cs",
-              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Repository\\VehicleRepository.cs",
-              "RelativeDocumentMoniker": "RadicalMotor\\Repository\\VehicleRepository.cs",
-              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Repository\\VehicleRepository.cs",
-              "RelativeToolTip": "RadicalMotor\\Repository\\VehicleRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T05:37:08.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IVehicleRepository.cs",
-              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Repository\\IVehicleRepository.cs",
-              "RelativeDocumentMoniker": "RadicalMotor\\Repository\\IVehicleRepository.cs",
-              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Repository\\IVehicleRepository.cs",
-              "RelativeToolTip": "RadicalMotor\\Repository\\IVehicleRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T05:36:45.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 41,
               "Title": "PriceList.cs",
               "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Models\\PriceList.cs",
               "RelativeDocumentMoniker": "RadicalMotor\\Models\\PriceList.cs",
@@ -442,7 +792,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 42,
               "Title": "20240522145248_Add ImageUrl to Vehicle Model.cs",
               "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Migrations\\20240522145248_Add ImageUrl to Vehicle Model.cs",
               "RelativeDocumentMoniker": "RadicalMotor\\Migrations\\20240522145248_Add ImageUrl to Vehicle Model.cs",
@@ -454,7 +804,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 43,
               "Title": "20240522144243_Initial.cs",
               "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Migrations\\20240522144243_Initial.cs",
               "RelativeDocumentMoniker": "RadicalMotor\\Migrations\\20240522144243_Initial.cs",
@@ -466,7 +816,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 44,
               "Title": "Supplier.cs",
               "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Models\\Supplier.cs",
               "RelativeDocumentMoniker": "RadicalMotor\\Models\\Supplier.cs",
@@ -478,7 +828,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 45,
               "Title": "CustomerImage.cs",
               "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Models\\CustomerImage.cs",
               "RelativeDocumentMoniker": "RadicalMotor\\Models\\CustomerImage.cs",
@@ -490,19 +840,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Program.cs",
-              "RelativeDocumentMoniker": "RadicalMotor\\Program.cs",
-              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Program.cs",
-              "RelativeToolTip": "RadicalMotor\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAkwA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T08:12:33.719Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 46,
               "Title": "20240522140127_Initial.cs",
               "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Migrations\\20240522140127_Initial.cs",
               "RelativeDocumentMoniker": "RadicalMotor\\Migrations\\20240522140127_Initial.cs",
@@ -514,7 +852,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 47,
               "Title": "20240522134826_Add Relationship for Vehicle.cs",
               "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Migrations\\20240522134826_Add Relationship for Vehicle.cs",
               "RelativeDocumentMoniker": "RadicalMotor\\Migrations\\20240522134826_Add Relationship for Vehicle.cs",
@@ -526,7 +864,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 49,
               "Title": "VehicleTypeRepository.cs",
               "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Repository\\VehicleTypeRepository.cs",
               "RelativeDocumentMoniker": "RadicalMotor\\Repository\\VehicleTypeRepository.cs",
@@ -538,7 +876,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 48,
               "Title": "ServiceRepository.cs",
               "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Repository\\ServiceRepository.cs",
               "RelativeDocumentMoniker": "RadicalMotor\\Repository\\ServiceRepository.cs",
@@ -550,19 +888,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "PriceListRepository.cs",
-              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Repository\\PriceListRepository.cs",
-              "RelativeDocumentMoniker": "RadicalMotor\\Repository\\PriceListRepository.cs",
-              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Repository\\PriceListRepository.cs",
-              "RelativeToolTip": "RadicalMotor\\Repository\\PriceListRepository.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T12:57:32.176Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 50,
               "Title": "IPriceListRepository.cs",
               "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Repository\\IPriceListRepository.cs",
               "RelativeDocumentMoniker": "RadicalMotor\\Repository\\IPriceListRepository.cs",
@@ -574,7 +900,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 51,
               "Title": "IVehicleTypeRepository.cs",
               "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Repository\\IVehicleTypeRepository.cs",
               "RelativeDocumentMoniker": "RadicalMotor\\Repository\\IVehicleTypeRepository.cs",
@@ -586,19 +912,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\appsettings.json",
-              "RelativeDocumentMoniker": "RadicalMotor\\appsettings.json",
-              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\appsettings.json",
-              "RelativeToolTip": "RadicalMotor\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-17T13:14:00.06Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 52,
               "Title": "VehicleViewModel.cs",
               "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Models\\VehicleViewModel.cs",
               "RelativeDocumentMoniker": "RadicalMotor\\Models\\VehicleViewModel.cs",
@@ -610,67 +924,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "_AdminLayout.cshtml",
-              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeDocumentMoniker": "RadicalMotor\\Views\\Shared\\_AdminLayout.cshtml",
-              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeToolTip": "RadicalMotor\\Views\\Shared\\_AdminLayout.cshtml",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-19T06:34:11.331Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Views\\Service\\Index.cshtml",
-              "RelativeDocumentMoniker": "RadicalMotor\\Views\\Service\\Index.cshtml",
-              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Views\\Service\\Index.cshtml",
-              "RelativeToolTip": "RadicalMotor\\Views\\Service\\Index.cshtml",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAAAEUAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-15T12:38:37.22Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "site.css",
-              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "RadicalMotor\\wwwroot\\css\\site.css",
-              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "RadicalMotor\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAEUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-20T18:37:39.645Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "_AuthLayout.cshtml",
-              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Identity\\Pages\\_AuthLayout.cshtml",
-              "RelativeDocumentMoniker": "RadicalMotor\\Areas\\Identity\\Pages\\_AuthLayout.cshtml",
-              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Identity\\Pages\\_AuthLayout.cshtml",
-              "RelativeToolTip": "RadicalMotor\\Areas\\Identity\\Pages\\_AuthLayout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T18:07:39.973Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "RadicalMotor\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
-              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
-              "RelativeToolTip": "RadicalMotor\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-15T10:18:36.036Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 53,
               "Title": "style.css",
               "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\css\\style.css",
               "RelativeDocumentMoniker": "RadicalMotor\\wwwroot\\css\\style.css",
@@ -682,55 +936,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "RadicalMotor\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "RadicalMotor\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-17T06:13:06.983Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "bootstrap.min.css",
-              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\css\\bootstrap.min.css",
-              "RelativeDocumentMoniker": "RadicalMotor\\wwwroot\\css\\bootstrap.min.css",
-              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\css\\bootstrap.min.css",
-              "RelativeToolTip": "RadicalMotor\\wwwroot\\css\\bootstrap.min.css",
-              "ViewState": "AQIAABICAAAAAAAAAAAUwBsCAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-20T18:43:31.786Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "MyLayouts.cshtml",
-              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Views\\Shared\\MyLayouts.cshtml",
-              "RelativeDocumentMoniker": "RadicalMotor\\Views\\Shared\\MyLayouts.cshtml",
-              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Views\\Shared\\MyLayouts.cshtml",
-              "RelativeToolTip": "RadicalMotor\\Views\\Shared\\MyLayouts.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-15T10:31:19.572Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "RadicalMotor\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "RadicalMotor\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAAwHcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T05:41:08.328Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 54,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "RadicalMotor\\Views\\Shared\\_LoginPartial.cshtml",
@@ -742,7 +948,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 55,
               "Title": "sb-admin-2.css",
               "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\Theme\\css\\sb-admin-2.css",
               "RelativeDocumentMoniker": "RadicalMotor\\wwwroot\\Theme\\css\\sb-admin-2.css",
@@ -754,7 +960,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 56,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "RadicalMotor\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -766,19 +972,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "ServiceController.cs",
-              "DocumentMoniker": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Controllers\\ServiceController.cs",
-              "RelativeDocumentMoniker": "RadicalMotor\\Controllers\\ServiceController.cs",
-              "ToolTip": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\Controllers\\ServiceController.cs",
-              "RelativeToolTip": "RadicalMotor\\Controllers\\ServiceController.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAAADoAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T12:24:51.899Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 57,
               "Title": "20240515093307_Initial.cs",
               "DocumentMoniker": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\Migrations\\20240515093307_Initial.cs",
               "ToolTip": "E:\\development\\web\\RadicalMotor\\RadicalMotor\\Migrations\\20240515093307_Initial.cs",

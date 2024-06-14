@@ -54,54 +54,68 @@
 <!--Vehicle Image-->
 <div class="row">
     <div style="min-width: 100px" class="col-md-2 mx-5">
-        <h1>Type</h1>
+        <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+            <div class="input-group">
+                <input name="searchString" type="text" class="form-control bg-light border-0 small" placeholder="Search for..."
+                       aria-label="Search" aria-describedby="basic-addon2">
+
+                    <button style="background-color: rgb(216, 19, 36) !important;
+                                                border-color: rgb(216, 19, 36) !important" class="btn btn-primary" type="submit">
+                        <i class="bi bi-search"></i>
+                    </button>
+
+            </div>
+        </form>
+        <button style="width:100% !important;" class="btn btn-secondary mt-1">Type</button>
         <div class="list-group list-group-flush">
             @foreach (var vehicleType in ViewBag.VehicleTypes)
             {
-                <a href="@Url.Action("Index", "Product", new { vehicleType = vehicleType })" class="list-group-item list-group-item-action text-primary">
+                <a href="@Url.Action("Index", "Product", new { vehicleType = vehicleType })" class="list-group-item list-group-item-action text-primary text-center">
                     @vehicleType
                 </a>
             }
-            <a class="list-group-item list-group-item-action text-primary" asp-controller="Product" asp-action="Index">All</a>
+            <a class="list-group-item list-group-item-action text-primary text-center" asp-controller="Product" asp-action="Index">All</a>
         </div>
     </div>
     <div class="col-md-9">
         <div class="row row-cols-1 row-cols-md-3 g-4">
             @foreach (var Vehicle in Model)
             {
-                <div style="min-width: 35vh;" class="col-md-4 mb-4">
-                    <div style="border: none !important;" class="card h-100">
-                        <div class="card-body">
-                            @if (ViewBag.VehicleImages != null && ViewBag.VehicleImages.ContainsKey(Vehicle.ChassisNumber))
+                <a asp-controller="Product" asp-action="Detail" asp-route-id="@Vehicle.ChassisNumber">
+                    <div style="min-width: 35vh;" class="col-md-4 mb-4">
+                        <div style="border: none !important;" class="card h-100">
+                            <div class="card-body">
+                                @if (ViewBag.VehicleImages != null && ViewBag.VehicleImages.ContainsKey(Vehicle.ChassisNumber))
+                                {
+                                    @*                                 var images = ViewBag.VehicleImages[Vehicle.ChassisNumber];
+                            foreach (var image in images)
                             {
-@*                                 var images = ViewBag.VehicleImages[Vehicle.ChassisNumber];
-                                foreach (var image in images)
-                                {
-                                    <img src="@image.ImageUrl" class="card-img-bottom img-fluid" alt="Vehicle Image">
-                                } *@  
-                                var images = ViewBag.VehicleImages[Vehicle.ChassisNumber];
-                                for (int i = 0; i < 1; i++)
-                                {
-                                    var image = images[i];
-                                    <img src="@image.ImageUrl" class="card-img-bottom img-fluid" alt="Vehicle Image">
+                            <img src="@image.ImageUrl" class="card-img-bottom img-fluid" alt="Vehicle Image">
+                            } *@
+                                    var images = ViewBag.VehicleImages[Vehicle.ChassisNumber];
+                                    for (int i = 0; i < 1; i++)
+                                    {
+                                        var image = images[i];
+                                        <img src="@image.ImageUrl" class="card-img-bottom img-fluid" alt="Vehicle Image">
+                                    }
                                 }
-                            }
-                        </div>
-                        <div class="card-footer d-flex justify-content-between align-items-start">
-                            <div>
-                                <h6 style="font-weight: bold !important;" class="card-title mb-0 text-uppercase text-secondary">@Vehicle.VehicleName</h6>
-                                <p style="font-style: italic !important;" class="card-text mb-0 text-uppercase text-dark">@Vehicle.VehicleType.TypeName</p>
                             </div>
-                            <div>
-                                @if (ViewBag.Prices != null && ViewBag.Prices.ContainsKey(Vehicle.ChassisNumber))
-                                {
-                                    var price = ViewBag.Prices[Vehicle.ChassisNumber];
-                                    <h6 style="font-weight: bold !important;" class="card-text mb-0 text-primary">@price.ToString("N0").Split('.')[0] VNĐ</h6>
-                                }
+                            <div class="card-footer d-flex justify-content-between align-items-start">
+                                <div>
+                                    <h6 style="font-weight: bold !important;" class="card-title mb-0 text-uppercase text-secondary">@Vehicle.VehicleName</h6>
+                                    <p style="font-style: italic !important;" class="card-text mb-0 text-uppercase text-dark">@Vehicle.VehicleType.TypeName</p>
+                                </div>
+                                <div>
+                                    @if (ViewBag.Prices != null && ViewBag.Prices.ContainsKey(Vehicle.ChassisNumber))
+                                    {
+                                        var price = ViewBag.Prices[Vehicle.ChassisNumber];
+                                        <h6 style="font-weight: bold !important;" class="card-text mb-0 text-primary">@price.ToString("N0").Split('.')[0] VNĐ</h6>
+                                    }
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
             }
         </div>
     </div>

@@ -1,0 +1,48 @@
+﻿@model RadicalMotor.Models.Vehicle
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container">
+    <h2>Are you sure you want to delete this vehicle?</h2>
+
+    <div class="card">
+        <div class="card-header">
+            <h2>@Model.VehicleName</h2>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    @if (ViewBag.VehicleImages != null && ViewBag.VehicleImages.ContainsKey(Model.ChassisNumber))
+                    {
+                        var images = ViewBag.VehicleImages[Model.ChassisNumber];
+                        if (images.Count > 0)
+                        {
+                            var image = images[0];
+                            <img style="max-width: 100%;" src="@image.ImageUrl" class="img-fluid" alt="Vehicle Image">
+                        }
+                    }
+                </div>
+
+                <div class="col-md-6">
+                    <h5 class="card-title">Vehicle Details</h5>
+                    <p class="card-text"><strong>Chassis Number:</strong> @Model.ChassisNumber</p>
+                    <p class="card-text"><strong>Entry Date:</strong> @Model.EntryDate.ToString("dd/MM/yyyy")</p>
+                    <p class="card-text"><strong>Version:</strong> @Model.Version</p>
+                    <p class="card-text"><strong>Vehicle Type:</strong> @Model.VehicleType?.TypeName</p>
+                    <p class="card-text text-primary"><strong>Price:</strong> @ViewBag.Prices[Model.ChassisNumber].ToString("N0").Split('.')[0] VNĐ</p>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer">
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="ChassisNumber" />
+                <button type="submit" class="btn btn-danger">Delete</button>
+                <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+            </form>
+        </div>
+    </div>
+</div>

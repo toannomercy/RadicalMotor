@@ -7469,8 +7469,20 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\images\\profiles\\1b2c17cb-e8cb-4bb8-855e-06a6cc467031_testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\images\\profiles\\1b2c17cb-e8cb-4bb8-855e-06a6cc467031_testimonial-1.jpg"
+    },
+    {
+      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\images\\profiles\\234bae47-ce72-418b-b585-c6fc65ac7ca7_team-1.jpg",
+      "PackagePath": "staticwebassets\\images\\profiles\\234bae47-ce72-418b-b585-c6fc65ac7ca7_team-1.jpg"
+    },
+    {
       "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\1290-SUPER-DUKE-R-EVO.png",
       "PackagePath": "staticwebassets\\img\\1290-SUPER-DUKE-R-EVO.png"
+    },
+    {
+      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\1588688470-419-yamaha-nvx-155-1588655856-width660height400.jpg",
+      "PackagePath": "staticwebassets\\img\\1588688470-419-yamaha-nvx-155-1588655856-width660height400.jpg"
     },
     {
       "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\350-EXCF-SIX-DAYS.png",
@@ -7503,6 +7515,14 @@
     {
       "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\Vector-4.png",
       "PackagePath": "staticwebassets\\img\\Vector-4.png"
+    },
+    {
+      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\Yamaha-Fino-Sporty-2021.jpg",
+      "PackagePath": "staticwebassets\\img\\Yamaha-Fino-Sporty-2021.jpg"
+    },
+    {
+      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\Yamaha-MT-15-2.jpg",
+      "PackagePath": "staticwebassets\\img\\Yamaha-MT-15-2.jpg"
     },
     {
       "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\about.jpg",
@@ -7547,6 +7567,10 @@
     {
       "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\demo-day.jpg",
       "PackagePath": "staticwebassets\\img\\demo-day.jpg"
+    },
+    {
+      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\ex(1).jpg",
+      "PackagePath": "staticwebassets\\img\\ex(1).jpg"
     },
     {
       "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\hieuvetraitim.jpg",
@@ -7601,6 +7625,14 @@
       "PackagePath": "staticwebassets\\img\\psd-4.png"
     },
     {
+      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\r15.jpg",
+      "PackagePath": "staticwebassets\\img\\r15.jpg"
+    },
+    {
+      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\rebel.jpg",
+      "PackagePath": "staticwebassets\\img\\rebel.jpg"
+    },
+    {
       "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\services-1.jpg",
       "PackagePath": "staticwebassets\\img\\services-1.jpg"
     },
@@ -7615,6 +7647,10 @@
     {
       "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\services-4.jpg",
       "PackagePath": "staticwebassets\\img\\services-4.jpg"
+    },
+    {
+      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\sh.png",
+      "PackagePath": "staticwebassets\\img\\sh.png"
     },
     {
       "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\slideshow-1.jpg",
@@ -7679,6 +7715,10 @@
     {
       "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\trial.jpg",
       "PackagePath": "staticwebassets\\img\\trial.jpg"
+    },
+    {
+      "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\img\\zkm22g0cx2b7d.jpg",
+      "PackagePath": "staticwebassets\\img\\zkm22g0cx2b7d.jpg"
     },
     {
       "Id": "D:\\WorkSpaces\\RadicalMotor\\RadicalMotor\\wwwroot\\jquery\\jquery.min.js",

@@ -1,0 +1,38 @@
+﻿@model RadicalMotor.Models.Vehicle
+
+@{
+    ViewBag.Title = "Vehicle Details";
+}
+
+<div class="container">
+    <div class="card mt-4">
+        <div class="card-header">
+            <h2>@Model.VehicleName</h2>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-5">
+                    @if (ViewBag.VehicleImages != null && ViewBag.VehicleImages.ContainsKey(Model.ChassisNumber))
+                    {
+                        var images = ViewBag.VehicleImages[Model.ChassisNumber];
+                        if (images.Count > 0)
+                        {
+                            var image = images[0];
+                            <img style="max-width: 100%;" src="@image.ImageUrl" class="img-fluid" alt="Vehicle Image">
+                        }
+                    }
+                </div>
+
+                <div class="col-md-7">
+                    <h5 class="card-title">Vehicle Details</h5>
+                    <p class="card-text"><strong>Chassis Number:</strong> @Model.ChassisNumber</p>
+                    <p class="card-text"><strong>Entry Date:</strong> @Model.EntryDate.ToString("dd/MM/yyyy")</p>
+                    <p class="card-text"><strong>Version:</strong> @Model.Version</p>
+                    <p class="card-text"><strong>Vehicle Type:</strong> @Model.VehicleType?.TypeName</p>
+                    <p class="card-text text-primary"><strong>Price:</strong> @ViewBag.Prices[Model.ChassisNumber].ToString("N0").Split('.')[0] VNĐ</p>
+                    <a href="@Url.Action("Index", "Product")" class="btn btn-primary mt-3">Back to List</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -64,4 +64,21 @@ public class CustomerRepository : ICustomerRepository
             await _context.SaveChangesAsync();
         }
     }
+
+    public async Task<Customer> GetCustomerByUserIdAsync(string userId)
+    {
+        return await _context.Customers.Include(c => c.CustomerImages).FirstOrDefaultAsync(c => c.UserId == userId);
+    }
+
+    public async Task AddCustomerImageAsync(CustomerImage customerImage)
+    {
+        _context.CustomerImages.Add(customerImage);
+        await _context.SaveChangesAsync();
+    }
+
+    public async Task UpdateCustomerImageAsync(CustomerImage customerImage)
+    {
+        _context.CustomerImages.Update(customerImage);
+        await _context.SaveChangesAsync();
+    }
 }

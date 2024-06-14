@@ -22,7 +22,7 @@ namespace RadicalMotor.Controllers
         }
 
         // GET: Product
-        public async Task<IActionResult> Index(string vehicleType)
+        public async Task<IActionResult> Index(string searchString, string vehicleType)
         {
             var vehicles = await _vehicleRepository.GetAllAsync();
             var vehicleTypes = _vehicleTypeRepository.GetAllVehicleTypes();
@@ -46,6 +46,10 @@ namespace RadicalMotor.Controllers
             {
                 vehicles = vehicles.Where(p => p.VehicleType.TypeName == vehicleType);
             }
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                vehicles = vehicles.Where(p => p.VehicleName.ToLower().Contains(searchString.ToLower()));
+            }
 
             ViewBag.Prices = prices;
 
@@ -56,22 +60,31 @@ namespace RadicalMotor.Controllers
             return View(vehicles);
         }
 
-        // GET: Product/Details/5
-        public async Task<IActionResult> Details(string id)
+        // GET: Product/Detail/5
+        public async Task<IActionResult> Detail(string id)
         {
+            var vehicle = await _context.Vehicles
+                .Include(v => v.PriceList)
+                .Include(v => v.VehicleType)
+                .FirstOrDefaultAsync(m => m.ChassisNumber == id);
+            var vehicleImages = new Dictionary<string, IEnumerable<VehicleImage>>();
+            var prices = new Dictionary<string, decimal>();
+            var images = await _vehicleImageRepository.GetByChassisNumber(vehicle.ChassisNumber);
+            prices.Add(vehicle.ChassisNumber, vehicle.PriceList?.Price ?? 0);
+            vehicleImages.Add(vehicle.ChassisNumber, images);
             if (id == null)
             {
                 return NotFound();
             }
 
-            var vehicle = await _context.Vehicles
-                .Include(v => v.PriceList)
-                .Include(v => v.VehicleType)
-                .FirstOrDefaultAsync(m => m.ChassisNumber == id);
+
             if (vehicle == null)
             {
                 return NotFound();
             }
+            ViewBag.Prices = prices;
+
+            ViewBag.VehicleImages = vehicleImages;
 
             return View(vehicle);
         }

@@ -39,6 +39,7 @@ namespace RadicalMotor.Models
         public string UserId { get; set; }
         public ApplicationUser User { get; set; }
         public List<Appointment> CreatedAppointments { get; set; }
+        public List<CustomerImage> CustomerImages { get; set; } = new List<CustomerImage>();
     }
 
     public class Employee

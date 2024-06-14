@@ -13,6 +13,7 @@
           rel="stylesheet">
     <!-- Custom styles for this template-->
     <link href="~/Theme/css/sb-admin-2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body id="page-top">
     <!-- Page Wrapper -->
@@ -71,11 +72,11 @@
                     <!-- Topbar Search -->
                     <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
                         <div class="input-group">
-                            <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..."
+                            <input name="searchString" type="text" class="form-control bg-light border-0 small" placeholder="Search for..."
                                    aria-label="Search" aria-describedby="basic-addon2">
                             <div style="background-color: rgb(254, 22, 42) !important" class="input-group-append">
                                 <button style="background-color: rgb(216, 19, 36) !important;
-                                                border-color: rgb(216, 19, 36) !important" class="btn btn-primary" type="button">
+                                                border-color: rgb(216, 19, 36) !important" class="btn btn-primary" type="submit">
                                     <i class="fas fa-search fa-sm"></i>
                                 </button>
                             </div>
@@ -241,7 +242,7 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Administrator</span>
                                 <img class="img-profile rounded-circle"
                                      src="~/Theme/img/undraw_profile.svg">
                             </a>
@@ -276,10 +277,6 @@
                     <div class="row">
                         <div class="container body-content">
                             @RenderBody()
-                            <hr />
-@*                              <footer>
-                                 <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-                             </footer> *@
                         </div>
                         @RenderSection("scripts", required: false)
                     </div>
